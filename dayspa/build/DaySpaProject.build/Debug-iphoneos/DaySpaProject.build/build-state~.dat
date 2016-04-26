@@ -1,0 +1,3626 @@
+TDaySpaProject
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC10DCA00000000000004FE
+t1287720394
+s1278
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004CC247E70000000000000294
+t1287800807
+s660
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC11D1700000000000000CD
+t1287724311
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC11D2E0000000000112F80
+t1287724334
+s1126272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sqlite3.h
+c000000004CC10A9E0000000000042B54
+t1287719582
+s273236
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libsqlite3.0.dylib
+c000000004CC10AB400000000000CE100
+t1287719604
+s844032
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/AlertHandler.h
+c000000004E7C35160000000000000132
+t1316762902
+s306
+i<Foundation/Foundation.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/AlertHandler.m
+c000000004E7C3516000000000000049E
+t1316762902
+s1182
+i"AlertHandler.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/../DaySpaProject.xcodeproj/ProgressCell.xib
+c000000004E8051180000000000007AF5
+t1317032216
+s31477
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/CheckmarkTile.h
+c000000004E7C351400000000000000A9
+t1316762900
+s169
+i"KLCalendarView.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/CheckmarkTile.m
+c000000004E7C351400000000000003DD
+t1316762900
+s989
+i"CheckmarkTile.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DataManager.h
+c000000004E7C35140000000000000626
+t1316762900
+s1574
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+i"share.h"
+i"PersonalJournalViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DataManager.m
+c000000004E7C35140000000000003740
+t1316762900
+s14144
+i"DataManager.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DaySpaProjectAppDelegate.h
+c000000004E7C35140000000000000519
+t1316762900
+s1305
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DaySpaProjectAppDelegate.m
+c000000004FB1ED77000000000000229A
+t1337060727
+s8858
+i"DaySpaProjectAppDelegate.h"
+i"TutorialViewController.h"
+i"RenewViewController.h"
+i"DataManager.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DetailJournalView.h
+c000000004E7C3514000000000000037E
+t1316762900
+s894
+i<UIKit/UIKit.h>
+i"DataManager.h"
+i"KLTile.h"
+i"PersonalJournalViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DetailJournalView.m
+c000000004E7C35140000000000000EFC
+t1316762900
+s3836
+i"DetailJournalView.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DetailJournalView.xib
+c000000004E7C3514000000000000657E
+t1316762900
+s25982
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCell.h
+c000000004E7C351400000000000005C8
+t1316762900
+s1480
+i<UIKit/UIKit.h>
+i"DaySpaProjectAppDelegate.h"
+i"MyGoalViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCell.m
+c000000004E7C62BC00000000000021AA
+t1316774588
+s8618
+i"GoalCell.h"
+i"MyGoalViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCell.xib
+c000000004FB22A4700000000000096BA
+t1337076295
+s38586
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCelliPad.xib
+c000000004E7C35140000000000007131
+t1316762900
+s28977
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletes.h
+c000000004E7C35140000000000000129
+t1316762900
+s297
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletes.m
+c000000004E7C351400000000000004FE
+t1316762900
+s1278
+i"GoalCompletes.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletes.xib
+c000000004E952CE0000000000000471D
+t1318399200
+s18205
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletesiPad.xib
+c000000004E7C35140000000000003249
+t1316762900
+s12873
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshop.h
+c000000004E81B0B400000000000007B1
+t1317122228
+s1969
+i<UIKit/UIKit.h>
+i"GoalCompletes.h"
+i"DaySpaProjectAppDelegate.h"
+i"DataManager.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshop.m
+c000000004E86A12A000000000000419C
+t1317445930
+s16796
+i"GoalsettingWorkshop.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshop.xib
+c000000004E82B426000000000000C64B
+t1317188646
+s50763
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshopiPad.xib
+c000000004E82B686000000000000C6E5
+t1317189254
+s50917
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarModel.h
+c000000004E7C3514000000000000073B
+t1316762900
+s1851
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarModel.m
+c000000004E7C35140000000000001332
+t1316762900
+s4914
+i"KLCalendarModel.h"
+i"THCalendarInfo.h"
+i"KLDate.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarView.h
+c000000004E7C35140000000000000CE7
+t1316762900
+s3303
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<CoreGraphics/CoreGraphics.h>
+i"KLTile.h"
+i"KLDate.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarView.m
+c000000004E7C35140000000000005204
+t1316762900
+s20996
+i"KLCalendarView.h"
+i"KLCalendarModel.h"
+i"KLGridView.h"
+i"KLColors.h"
+i"THCalendarInfo.h"
+i"KLGraphicsUtils.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLColors.h
+c000000004E7C35140000000000000753
+t1316762900
+s1875
+i<CoreGraphics/CoreGraphics.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLColors.m
+c000000004E7C35140000000000000DFE
+t1316762900
+s3582
+i"KLColors.h"
+i"KLGraphicsUtils.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLDate.h
+c000000004E7C35140000000000000AC7
+t1316762900
+s2759
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLDate.m
+c000000004E7C35140000000000001E7B
+t1316762900
+s7803
+i"KLDate.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGraphicsUtils.h
+c000000004E7C351400000000000006FF
+t1316762900
+s1791
+i<CoreGraphics/CoreGraphics.h>
+i<QuartzCore/QuartzCore.h>
+i<math.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGraphicsUtils.m
+c000000004E7C35140000000000000EFA
+t1316762900
+s3834
+i"KLGraphicsUtils.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGridView.h
+c000000004E7C351400000000000007D1
+t1316762900
+s2001
+i<UIKit/UIKit.h>
+i"PersonalJournalViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGridView.m
+c000000004E7C3514000000000000161E
+t1316762900
+s5662
+i"KLGridView.h"
+i"KLTile.h"
+i"KLColors.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLTile.h
+c000000004E7C35140000000000000863
+t1316762900
+s2147
+i<UIKit/UIKit.h>
+i"DataManager.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLTile.m
+c000000004E7C3514000000000000368A
+t1316762900
+s13962
+i"KLTile.h"
+i"KLDate.h"
+i"KLColors.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController.h
+c000000004FB227760000000000000702
+t1337075574
+s1794
+i<UIKit/UIKit.h>
+i"DaySpaProjectAppDelegate.h"
+i<MessageUI/MessageUI.h>
+i"GoalsettingWorkshop.h"
+i"DataManager.h"
+i"GoalCell.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController.m
+c000000004FB22B0A0000000000006356
+t1337076490
+s25430
+i"MyGoalViewController.h"
+i"GoalCell.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController.xib
+c000000004FB22AAC000000000000A67D
+t1337076396
+s42621
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController_iPad.xib
+c000000004E7C35140000000000006F20
+t1316762900
+s28448
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController.h
+c000000004E9557FC0000000000000B68
+t1318410236
+s2920
+i<UIKit/UIKit.h>
+i"DaySpaProjectAppDelegate.h"
+i"TreatmentRoom.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController.m
+c000000004FB22B110000000000004AF1
+t1337076497
+s19185
+i"MyProgressViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController.xib
+c000000004FB208BE0000000000014454
+t1337067710
+s83028
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController_iPad.xib
+c000000004E8051AC000000000000EFB0
+t1317032364
+s61360
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonalJournalViewController.h
+c000000004E7C35140000000000000509
+t1316762900
+s1289
+i<UIKit/UIKit.h>
+i"KLCalendarView.h"
+i"DetailJournalView.h"
+i"DaySpaProjectAppDelegate.h"
+i"DataManager.h"
+i"KLTile.h"
+i"KLGridView.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonalJournalViewController.m
+c000000004FB20275000000000000241B
+t1337066101
+s9243
+i"PersonalJournalViewController.h"
+i"THCalendarInfo.h"
+i"CheckmarkTile.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonalJournalViewController.xib
+c000000004FB202520000000000008008
+t1337066066
+s32776
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonlJournalViewController_iPad.xib
+c000000004E7C35140000000000007837
+t1316762900
+s30775
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewController.h
+c000000004E7C35140000000000000355
+t1316762900
+s853
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewController.m
+c000000004E7C351400000000000013A6
+t1316762900
+s5030
+i"RenewViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewController.xib
+c000000004E7C3514000000000000CEC0
+t1316762900
+s52928
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewControlleriPad.xib
+c000000004E7C3514000000000000DC9E
+t1316762900
+s56478
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewController.h
+c000000004E7C35140000000000000251
+t1316762900
+s593
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewController.m
+c000000004E9565EC0000000000000EF4
+t1318413804
+s3828
+i"SettingViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewController.xib
+c000000004FB20870000000000000C282
+t1337067632
+s49794
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewcontrolleriPad.xib
+c000000004E7C3514000000000000AF1C
+t1316762900
+s44828
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/Share.h
+c000000004E7C3514000000000000016C
+t1316762900
+s364
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/Share.m
+c000000004E7C35140000000000000152
+t1316762900
+s338
+i"Share.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/THCalendarInfo.h
+c000000004E7C35140000000000000B4E
+t1316762900
+s2894
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/THCalendarInfo.m
+c000000004E7C351400000000000032C4
+t1316762900
+s12996
+i"THCalendarInfo.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoom.h
+c000000004E7C3514000000000000088C
+t1316762900
+s2188
+i<UIKit/UIKit.h>
+i"DaySpaProjectAppDelegate.h"
+i"MyProgressViewController.h"
+i<AVFoundation/AVFoundation.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoom.m
+c000000004FB1FD9400000000000092C5
+t1337064852
+s37573
+i"TreatmentRoom.h"
+i"AlertHandler.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoom.xib
+c000000004FB1FD5C000000000000BEE4
+t1337064796
+s48868
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoomiPad.xib
+c000000004E7C35140000000000007C13
+t1316762900
+s31763
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewController.h
+c000000004E7C35140000000000000226
+t1316762900
+s550
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i"DaySpaProjectAppDelegate.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewController.m
+c000000004E7C3514000000000000093B
+t1316762900
+s2363
+i"TutorialViewController.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewController.xib
+c000000004E7C35140000000000003C29
+t1316762900
+s15401
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewControlleriPad.xib
+c000000004E7C35140000000000003A27
+t1316762900
+s14887
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/left-arrow.png
+c000000004E7C351400000000000001DE
+t1316762900
+s478
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/right-arrow.png
+c000000004E7C351400000000000001EB
+t1316762900
+s491
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/tabledemo.h
+c000000004E7C351400000000000000E8
+t1316762900
+s232
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/tabledemo.m
+c000000004E7C35140000000000001107
+t1316762900
+s4359
+i"tabledemo.h"
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/tabledemo.xib
+c000000004E7C35140000000000001C66
+t1316762900
+s7270
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/AddGoal.png
+c000000004E8EBB720000000000001CAB
+t1317976946
+s7339
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/AddGoal@2x.png
+c000000004E8EBB5C0000000000002A0F
+t1317976924
+s10767
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/CatSelImg.png
+c000000004E95325C0000000000000F87
+t1318400604
+s3975
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/CatSelImg@2x.png
+c000000004E95324200000000000011DA
+t1318400578
+s4570
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/Continue.png
+c000000004E952B1C00000000000020DD
+t1318398748
+s8413
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/Continue@2x.png
+c000000004E952B080000000000003343
+t1318398728
+s13123
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/GoalTitleBar.png
+c000000004E8FDBFA0000000000001ACC
+t1318050810
+s6860
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/GoalTitleBar@2x.png
+c000000004E8FDBE80000000000002DE6
+t1318050792
+s11750
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/GoalWorkshop.png
+c000000004E8FDB0400000000000021E6
+t1318050564
+s8678
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/GoalWorkshop@2x.png
+c000000004E8FDAEA0000000000003447
+t1318050538
+s13383
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/MyDetails.png
+c000000004E9523BE00000000000022B0
+t1318396862
+s8880
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/MyDetails@2x.png
+c000000004E9523AC00000000000035AE
+t1318396844
+s13742
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/MyProgressSeg.png
+c000000004E95289C00000000000024C2
+t1318398108
+s9410
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/MyProgressSeg@2x.png
+c000000004E9528A80000000000003896
+t1318398120
+s14486
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/PlayBtn.png
+c000000004E952DA00000000000001AEC
+t1318399392
+s6892
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/PlayBtn@2x.png
+c000000004E952D8C00000000000022C7
+t1318399372
+s8903
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/ProcessTblBg.png
+c000000004E955EEA00000000000010CE
+t1318412010
+s4302
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/ProcessTblBg@2x.png
+c000000004E955ED60000000000001596
+t1318411990
+s5526
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/RedioBtn.png
+c000000004E941E6A0000000000000E9C
+t1318329962
+s3740
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/RedioBtn@2x.png
+c000000004E941E4E0000000000001493
+t1318329934
+s5267
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/RedioBtnSelected.png
+c000000004E941D900000000000001132
+t1318329744
+s4402
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/RedioBtnSelected@2x.png
+c000000004E941D7A0000000000001819
+t1318329722
+s6169
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/Save.png
+c000000004E8EA92C0000000000001AB0
+t1317972268
+s6832
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/Save@2x.png
+c000000004E8EA914000000000000287A
+t1317972244
+s10362
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/SendEmail.png
+c000000004E8EAC7E0000000000001D01
+t1317973118
+s7425
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/SendEmail@2x.png
+c000000004E8EAC620000000000002997
+t1317973090
+s10647
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/TblBg.png
+c000000004E8FDCD80000000000006E2C
+t1318051032
+s28204
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/TblBg@2x.png
+c000000004E8FDCC4000000000001CCCA
+t1318051012
+s117962
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/TxtBoxImg.png
+c000000004E8FDF4A0000000000000E9E
+t1318051658
+s3742
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/TxtBoxImg@2x.png
+c000000004E8FDF360000000000001035
+t1318051638
+s4149
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/TxtFieldImg.png
+c000000004E9423800000000000000EE1
+t1318331264
+s3809
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/TxtFieldImg@2x.png
+c000000004E94236A000000000000133F
+t1318331242
+s4927
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/UnCheckBtn.png
+c000000004E941CAE00000000000010CE
+t1318329518
+s4302
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/UnCheckBtn@2x.png
+c000000004E941C9A0000000000001730
+t1318329498
+s5936
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/catBg.png
+c000000004E8FE00C00000000000011F4
+t1318051852
+s4596
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/catBg@2x.png
+c000000004E8FDFFC000000000000194B
+t1318051836
+s6475
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/catCellBg.png
+c000000004E9418420000000000001901
+t1318328386
+s6401
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/catCellBg@2x.png
+c000000004E94182C00000000000029C5
+t1318328364
+s10693
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/catTblBg.png
+c000000004E9412AC0000000000003476
+t1318326956
+s13430
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/catTblBg@2x.png
+c000000004E941280000000000000556D
+t1318326912
+s21869
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell1.png
+c000000004E953CF20000000000000F87
+t1318403314
+s3975
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell1@2x.png
+c000000004E953CE000000000000011DA
+t1318403296
+s4570
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell2.png
+c000000004E953D4C0000000000000EED
+t1318403404
+s3821
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell2@2x.png
+c000000004E953D3A000000000000104C
+t1318403386
+s4172
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell3.png
+c000000004E953DC00000000000000EAA
+t1318403520
+s3754
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell3@2x.png
+c000000004E953DAE0000000000001016
+t1318403502
+s4118
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell4.png
+c000000004E953E460000000000000EB1
+t1318403654
+s3761
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell4@2x.png
+c000000004E953E340000000000000FDA
+t1318403636
+s4058
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell5.png
+c000000004E953EB20000000000000DE2
+t1318403762
+s3554
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell5@2x.png
+c000000004E953E9E0000000000000EA5
+t1318403742
+s3749
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell6.png
+c000000004E953F300000000000000EC4
+t1318403888
+s3780
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell6@2x.png
+c000000004E953F1E0000000000001029
+t1318403870
+s4137
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell7.png
+c000000004E953F9A0000000000000EDA
+t1318403994
+s3802
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cell7@2x.png
+c000000004E953F86000000000000100E
+t1318403974
+s4110
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cellProcessBg.png
+c000000004E95614C0000000000000C69
+t1318412620
+s3177
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/cellProcessBg@2x.png
+c000000004E9561380000000000000D31
+t1318412600
+s3377
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/checkBtn.png
+c000000004E941B9600000000000013B3
+t1318329238
+s5043
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/checkBtn@2x.png
+c000000004E941B820000000000001D83
+t1318329218
+s7555
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/defaultPhoto.png
+c000000004E8FDEAE00000000000012AB
+t1318051502
+s4779
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/defaultPhoto@2x.png
+c000000004E8FDE9C0000000000001B11
+t1318051484
+s6929
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/goalSaperator.png
+c000000004E8FDE040000000000000B16
+t1318051332
+s2838
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/goalSaperator@2x.png
+c000000004E8FDE240000000000000B2F
+t1318051364
+s2863
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/goalTblBg.png
+c000000004E9413BE00000000000025F7
+t1318327230
+s9719
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/goalTblBg@2x.png
+c000000004E9413A60000000000004EA0
+t1318327206
+s20128
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/progressBg.png
+c000000004E9564180000000000003A11
+t1318413336
+s14865
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/progressBg@2x.png
+c000000004E9562F2000000000000AD80
+t1318413042
+s44416
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star1.png
+c000000004E9537E60000000000000F15
+t1318402022
+s3861
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star1@2x.png
+c000000004E9537D40000000000001478
+t1318402004
+s5240
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star2.png
+c000000004E95387E0000000000000F14
+t1318402174
+s3860
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star2@2x.png
+c000000004E9538640000000000001485
+t1318402148
+s5253
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star3.png
+c000000004E9539440000000000000F1A
+t1318402372
+s3866
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star3@2x.png
+c000000004E95392E000000000000146C
+t1318402350
+s5228
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star4.png
+c000000004E9539E40000000000000F01
+t1318402532
+s3841
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star4@2x.png
+c000000004E9539D00000000000001447
+t1318402512
+s5191
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star5.png
+c000000004E953A620000000000000EF8
+t1318402658
+s3832
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star5@2x.png
+c000000004E953A5200000000000013A1
+t1318402642
+s5025
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star6.png
+c000000004E953AF20000000000000F1A
+t1318402802
+s3866
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star6@2x.png
+c000000004E953ADE000000000000146C
+t1318402782
+s5228
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star7.png
+c000000004E953B6C0000000000000F0E
+t1318402924
+s3854
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/star7@2x.png
+c000000004E953B58000000000000144E
+t1318402904
+s5198
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/stop.png
+c000000004E95746E0000000000001E45
+t1318417518
+s7749
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DSimages/stop@2x.png
+c000000004E9574840000000000004E5E
+t1318417540
+s20062
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/DaySpaProject_Prefix.pch
+c000000004E7C351600000000000000C3
+t1316762902
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Dayspa.sqlite
+c000000004E7C35160000000000000C00
+t1316762902
+s3072
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Default.png
+c000000004FB1EA400000000000013B52
+t1337059904
+s80722
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Default@2x.png
+c000000004FB1EA2800000000000316D1
+t1337059880
+s202449
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Default_Portrait.png
+c000000004E7C3516000000000040C84C
+t1316762902
+s4245580
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/MainWindow.xib
+c000000004FB208860000000000010C27
+t1337067654
+s68647
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/MainWindow_iPad.xib
+c000000004E7C3516000000000000FDB3
+t1316762902
+s64947
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Creativity & Inspiration_intro.mp3
+c000000004E7C3512000000000010908B
+t1316762898
+s1085579
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Harmony & Balance_intro.mp3
+c000000004E7C351200000000001093CD
+t1316762898
+s1086413
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Health & Healing_intro.mp3
+c000000004E7C35120000000000108866
+t1316762898
+s1083494
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/High Performance_intro.mp3
+c000000004E7C35120000000000108EEA
+t1316762898
+s1085162
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Love & Relationships_intro.mp3
+c000000004E7C35120000000000108EEA
+t1316762898
+s1085162
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Personal Power_intro.mp3
+c000000004E7C3512000000000010908B
+t1316762898
+s1085579
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Spiritual Connection_intro.mp3
+c000000004E7C35120000000000108EEA
+t1316762898
+s1085162
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/The Wisdom Within_intro.mp3
+c000000004E7C3512000000000010908B
+t1316762898
+s1085579
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Wealth & Abundance_intro.mp3
+c000000004E7C351200000000001093CD
+t1316762898
+s1086413
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/Treatment Audio/Your Life’s Purpose_intro.mp3
+c000000004E7C35120000000000108BA8
+t1316762898
+s1084328
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/addGoal_tblBg_img.png
+c000000004FB216EB00000000000010B7
+t1337071339
+s4279
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/addGoal_tblBg_img@2x.png
+c000000004FB216D50000000000001602
+t1337071317
+s5634
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/add_goal_btn.png
+c000000004FB21ED1000000000000133E
+t1337073361
+s4926
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/add_goal_btn@2x.png
+c000000004FB21EB40000000000001BE7
+t1337073332
+s7143
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/AlertHandler.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/CheckmarkTile.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DataManager.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DaySpaProject
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DaySpaProject.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DaySpaProjectAppDelegate.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DetailJournalView.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/GoalCell.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/GoalCompletes.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/GoalsettingWorkshop.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLCalendarModel.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLCalendarView.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLColors.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLDate.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLGraphicsUtils.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLGridView.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLTile.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/MyGoalViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/MyProgressViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/PersonalJournalViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/RenewViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/SettingViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/Share.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/THCalendarInfo.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/TreatmentRoom.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/TutorialViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/tabledemo.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/AlertHandler.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/CheckmarkTile.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DataManager.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DaySpaProject
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DaySpaProject.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DaySpaProjectAppDelegate.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DetailJournalView.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/GoalCell.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/GoalCompletes.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/GoalsettingWorkshop.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLCalendarModel.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLCalendarView.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLColors.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLDate.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLGraphicsUtils.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLGridView.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLTile.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/MyGoalViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/MyProgressViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/PersonalJournalViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/RenewViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/SettingViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/Share.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/THCalendarInfo.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/TreatmentRoom.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/TutorialViewController.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/tabledemo.o
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app.dSYM
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/AddGoal.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/AddGoal@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/CatSelImg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/CatSelImg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Continue.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Continue@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Creativity & Inspiration_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/DaySpaProject
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Dayspa.sqlite
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Default.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Default@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Default_Portrait.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/DetailJournalView.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalCell.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalCelliPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalCompletes.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalCompletesiPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalTitleBar.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalTitleBar@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalWorkshop.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalWorkshop@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalsettingWorkshop.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalsettingWorkshopiPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Harmony & Balance_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Health & Healing_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/High Performance_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Info.plist
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Love & Relationships_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MainWindow.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MainWindow_iPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyDetails.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyDetails@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyGoal.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyGoalViewController.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyGoalViewController_iPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgress.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgressSeg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgressSeg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgressViewController.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgressViewController_iPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Personal Power_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PersonalJournalViewController.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PersonlJournalViewController_iPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PkgInfo
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PlayBtn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PlayBtn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ProcessTblBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ProcessTblBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ProgressCell.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtnSelected.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtnSelected@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RenewViewController.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RenewViewControlleriPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ResourceRules.plist
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/STOP.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Save.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Save@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/SendEmail.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/SendEmail@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/SettingViewController.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/SettingViewcontrolleriPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Spiritual Connection_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TblBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TblBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/The Wisdom Within_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TreatmentRoom.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TreatmentRoomiPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TutorialViewController.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TutorialViewControlleriPad.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtBoxImg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtBoxImg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtFieldImg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtFieldImg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/UnCheckBtn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/UnCheckBtn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Wealth & Abundance_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Your Life’s Purpose_intro.mp3
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/addGoal_tblBg_img.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/addGoal_tblBg_img@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/add_goal_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/add_goal_btn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/addgoal_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/bg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catCellBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catCellBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catTblBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catTblBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell1@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell2@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell3@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell4@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell5@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell6@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell7@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cellProcessBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cellProcessBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell_line_img.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell_line_img@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/checkBtn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/checkBtn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/chk1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/date_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/defaultPhoto.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/defaultPhoto@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/edit_btn_img.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/edit_btn_img@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalSaperator.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalSaperator@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalTblBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalTblBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalWA_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goal_setting_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goal_setting_btn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/highest_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell8.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell9.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg8.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg9.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg8.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg9.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg8.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg9.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg8.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg9.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/icon.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/icon@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ipad_bg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/journal.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/journaltab.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/left-arrow.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/mygoaltab.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/newPly.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/new_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_navi_img.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_navi_img@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_tblBg_image.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_tblBg_image@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/playtab.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/progressBg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/progressBg@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/progresstab.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/rated.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/right-arrow.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/roff.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ron.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/save_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/save_btn_img.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/save_btn_img@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/send_email_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/send_email_btn@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/sendmail_btn.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/setting.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/settingTab.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star1@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star2.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star2@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star3.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star3@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star4.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star4@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star5.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star5@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star6.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star6@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star7.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star7@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/stop.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/stop@2x.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/tabledemo.nib
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/takeimage.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/top_background.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/txtFieldIpad.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/txtFieldIphone.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/txt_bg.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/unchk1.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/unrated.png
+t2
+s0
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/cell_line_img.png
+c000000004FB1F6F60000000000000B19
+t1337063158
+s2841
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/cell_line_img@2x.png
+c000000004FB1F6C60000000000000B36
+t1337063110
+s2870
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/dayspa 2/STOP.png
+c000000004E7C351400000000000091CD
+t1316762900
+s37325
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/dayspa 2/bg.png
+c000000004E7C3514000000000002394C
+t1316762900
+s145740
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/dayspa 2/icon.png
+c000000004E7C35140000000000010684
+t1316762900
+s67204
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/dayspa 2/icon@2x.png
+c000000004E7C3514000000000001D3E5
+t1316762900
+s119781
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/dayspa 2/ipad_bg.png
+c000000004E7C35140000000000025FEE
+t1316762900
+s155630
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/dayspa 2/play.png
+c000000004E7C3514000000000000E2AF
+t1316762900
+s58031
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/edit_btn_img.png
+c000000004FB227D50000000000000DE6
+t1337075669
+s3558
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/edit_btn_img@2x.png
+c000000004FB227BF000000000000107D
+t1337075647
+s4221
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/goal_setting_btn.png
+c000000004FB21F1E0000000000001A7B
+t1337073438
+s6779
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/goal_setting_btn@2x.png
+c000000004FB21F0D0000000000002D1F
+t1337073421
+s11551
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/../takeimage.png
+c000000004E7C35160000000000006528
+t1316762902
+s25896
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/addgoal_btn.png
+c000000004E7C35160000000000008EF0
+t1316762902
+s36592
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/goalWA_btn.png
+c000000004E7C351600000000000098E5
+t1316762902
+s39141
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell1.png
+c000000004E81A4B60000000000006B8C
+t1317119158
+s27532
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell2.png
+c000000004E81A3260000000000006BA1
+t1317118758
+s27553
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell3.png
+c000000004E81A0AE0000000000006B79
+t1317118126
+s27513
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell4.png
+c000000004E81A07E0000000000006B83
+t1317118078
+s27523
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell5.png
+c000000004E81A0480000000000006B70
+t1317118024
+s27504
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell6.png
+c000000004E81A0180000000000006BA5
+t1317117976
+s27557
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell7.png
+c000000004E819FE40000000000006B75
+t1317117924
+s27509
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell8.png
+c000000004E819FB00000000000006B84
+t1317117872
+s27524
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadCell9.png
+c000000004E819F700000000000006BDE
+t1317117808
+s27614
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg1.png
+c000000004E82B5F00000000000006B83
+t1317189104
+s27523
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg2.png
+c000000004E8194FE0000000000006C4B
+t1317115134
+s27723
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg3.png
+c000000004E81990E0000000000006B42
+t1317116174
+s27458
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg4.png
+c000000004E8199500000000000006BA3
+t1317116240
+s27555
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg5.png
+c000000004E8199900000000000006B82
+t1317116304
+s27522
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg6.png
+c000000004E8199C60000000000006BB4
+t1317116358
+s27572
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg7.png
+c000000004E819A1E0000000000006B87
+t1317116446
+s27527
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg8.png
+c000000004E819A600000000000006B84
+t1317116512
+s27524
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadLblImg9.png
+c000000004E819B7E0000000000006BC2
+t1317116798
+s27586
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg1.png
+c000000004E8179200000000000006CC8
+t1317108000
+s27848
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg2.png
+c000000004E81964A0000000000006CE1
+t1317115466
+s27873
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg3.png
+c000000004E819CDC0000000000006D2B
+t1317117148
+s27947
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg4.png
+c000000004E819D5A0000000000006D3A
+t1317117274
+s27962
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg5.png
+c000000004E819DB60000000000006D10
+t1317117366
+s27920
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg6.png
+c000000004E819E400000000000006D33
+t1317117504
+s27955
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg7.png
+c000000004E819E7A0000000000006D28
+t1317117562
+s27944
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg8.png
+c000000004E819EB20000000000006D18
+t1317117618
+s27928
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPadTxtImg9.png
+c000000004E819EE20000000000006D5F
+t1317117666
+s27999
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneCell1.png
+c000000004E8084F80000000000006B46
+t1317045496
+s27462
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneCell2.png
+c000000004E8081580000000000006B38
+t1317044568
+s27448
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneCell3.png
+c000000004E8085180000000000006B23
+t1317045528
+s27427
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneCell4.png
+c000000004E8081B60000000000006B45
+t1317044662
+s27461
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneCell5.png
+c000000004E8081DE0000000000006B08
+t1317044702
+s27400
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg1.png
+c000000004E81AE220000000000006B36
+t1317121570
+s27446
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg2.png
+c000000004E81AE780000000000006B64
+t1317121656
+s27492
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg3.png
+c000000004E81B1000000000000006B41
+t1317122304
+s27457
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg4.png
+c000000004E81B1420000000000006B2F
+t1317122370
+s27439
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg5.png
+c000000004E81B1820000000000006B0C
+t1317122434
+s27404
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg6.png
+c000000004E81B1BA0000000000006B3B
+t1317122490
+s27451
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg7.png
+c000000004E81B1FA0000000000006B1B
+t1317122554
+s27419
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg8.png
+c000000004E81B22A0000000000006B11
+t1317122602
+s27409
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneLblImg9.png
+c000000004E81B2620000000000006B94
+t1317122658
+s27540
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg1.png
+c000000004E81B2F60000000000006CAA
+t1317122806
+s27818
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg2.png
+c000000004E81B3800000000000006C43
+t1317122944
+s27715
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg3.png
+c000000004E81B6A20000000000006C89
+t1317123746
+s27785
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg4.png
+c000000004E81B6F20000000000006C93
+t1317123826
+s27795
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg5.png
+c000000004E81B7320000000000006C6A
+t1317123890
+s27754
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg6.png
+c000000004E81B78C0000000000006CBA
+t1317123980
+s27834
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg7.png
+c000000004E81B7CA0000000000006C7C
+t1317124042
+s27772
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg8.png
+c000000004E81B8060000000000006C71
+t1317124102
+s27761
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/iPhoneTxtImg9.png
+c000000004E81B8340000000000006CDF
+t1317124148
+s27871
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/save_btn.png
+c000000004E7C3516000000000000895D
+t1316762902
+s35165
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/sendmail_btn.png
+c000000004E7C351600000000000091B5
+t1316762902
+s37301
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/txtFieldIpad.png
+c000000004E7C35160000000000006D21
+t1316762902
+s27937
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MY GOAL/txtFieldIphone.png
+c000000004E7C35160000000000006D26
+t1316762902
+s27942
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/MyGoal.png
+c000000004E7C3516000000000000738C
+t1316762902
+s29580
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/MyProgress.png
+c000000004E7C35160000000000006BB0
+t1316762902
+s27568
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/journal.png
+c000000004E7C351600000000000070FA
+t1316762902
+s28922
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/journaltab.png
+c000000004E7C351600000000000082BA
+t1316762902
+s33466
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/mygoaltab.png
+c000000004E7C3516000000000000814A
+t1316762902
+s33098
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/newPly.png
+c000000004E7C35160000000000006E4F
+t1316762902
+s28239
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/playtab.png
+c000000004E7C351600000000000075A5
+t1316762902
+s30117
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/progresstab.png
+c000000004E7C35160000000000007640
+t1316762902
+s30272
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/setting.png
+c000000004E7C35160000000000007160
+t1316762902
+s29024
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/settingTab.png
+c000000004E7C35160000000000008179
+t1316762902
+s33145
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/MainWindow/txt_bg.png
+c000000004E7C35160000000000006F10
+t1316762902
+s28432
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/NewGoal/date_btn.png
+c000000004E7C35160000000000007C83
+t1316762902
+s31875
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/NewGoal/highest_btn.png
+c000000004E7C351600000000000080A8
+t1316762902
+s32936
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/NewGoal/new_btn.png
+c000000004E7C35160000000000007BF4
+t1316762902
+s31732
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/chk1.png
+c000000004E7C351600000000000001B3
+t1316762902
+s435
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/roff.png
+c000000004E7C351600000000000000E1
+t1316762902
+s225
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/ron.png
+c000000004E7C351600000000000000F1
+t1316762902
+s241
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/top_background.png
+c000000004E7C35160000000000006C9B
+t1316762902
+s27803
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/images/unchk1.png
+c000000004E7C35160000000000000163
+t1316762902
+s355
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/main.m
+c000000004E7C35160000000000000176
+t1316762902
+s374
+i<UIKit/UIKit.h>
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/play_navi_img.png
+c000000004FB1FCBE00000000000013C8
+t1337064638
+s5064
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/play_navi_img@2x.png
+c000000004FB1FCA70000000000001C1C
+t1337064615
+s7196
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/play_tblBg_image.png
+c000000004FB1F1A60000000000000DE1
+t1337061798
+s3553
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/play_tblBg_image@2x.png
+c000000004FB1F17E0000000000001288
+t1337061758
+s4744
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/rated.png
+c000000004E7C672800000000000080BD
+t1316775720
+s32957
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/save_btn_img.png
+c000000004FB2226B000000000000117F
+t1337074283
+s4479
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/save_btn_img@2x.png
+c000000004FB222570000000000001952
+t1337074263
+s6482
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/send_email_btn.png
+c000000004FB21E8B0000000000001418
+t1337073291
+s5144
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/send_email_btn@2x.png
+c000000004FB21E760000000000001E12
+t1337073270
+s7698
+
+N/Volumes/Untitled 2/SVN/dayspa/dayspa/unrated.png
+c000000004E7C67300000000000006BF3
+t1316775728
+s27635
+
+N/var/folders/pw/pwkFMpR+Foatn9xpvUQYwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaySpaProject_Prefix-cgsiifazwtooubhcrtprizaiwcpp/DaySpaProject_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/pw/pwkFMpR+Foatn9xpvUQYwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaySpaProject_Prefix-dwoyvljyvtbzqtdthiokjsgzjfwo/DaySpaProject_Prefix.pch.gch
+t2
+s0
+
+NDaySpaProject-Info.plist
+c000000004F8D1A3F00000000000004EF
+t1334647359
+s1263
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies358769404#358769404#0(99"[BEROR]Code Sign error: Provisioning profile '244DB2EF-A7F9-4419-B4E1-15D22D37B378' can't be found1(4@91"Code Sign error: Provisioning profile '244DB2EF-A7F9-4419-B4E1-15D22D37B378' can't be found358769404#18446744073709551615#0#0(1@0"0(0#1#0"8623292736#0"0#
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/AlertHandler.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/AlertHandler.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/CheckmarkTile.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/CheckmarkTile.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DataManager.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DataManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DaySpaProjectAppDelegate.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DaySpaProjectAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DetailJournalView.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DetailJournalView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/GoalCell.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCell.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/GoalCompletes.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletes.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/GoalsettingWorkshop.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshop.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLCalendarModel.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarModel.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLCalendarView.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLColors.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLColors.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLDate.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLDate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLGraphicsUtils.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGraphicsUtils.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLGridView.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGridView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/KLTile.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLTile.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/MyGoalViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/MyProgressViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/PersonalJournalViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonalJournalViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/RenewViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/SettingViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/Share.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/Share.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/THCalendarInfo.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/THCalendarInfo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/TreatmentRoom.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoom.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/TutorialViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/main.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/tabledemo.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/tabledemo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/AlertHandler.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/AlertHandler.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/CheckmarkTile.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/CheckmarkTile.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DataManager.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DataManager.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DaySpaProjectAppDelegate.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DaySpaProjectAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DetailJournalView.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DetailJournalView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/GoalCell.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCell.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/GoalCompletes.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletes.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/GoalsettingWorkshop.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshop.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLCalendarModel.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarModel.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLCalendarView.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLCalendarView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLColors.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLColors.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLDate.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLDate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLGraphicsUtils.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGraphicsUtils.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLGridView.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLGridView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/KLTile.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/KLTile.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/MyGoalViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/MyProgressViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/PersonalJournalViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonalJournalViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/RenewViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/SettingViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/Share.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/Share.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/THCalendarInfo.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/THCalendarInfo.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/TreatmentRoom.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoom.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/TutorialViewController.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/main.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/tabledemo.o "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/tabledemo.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/../DaySpaProject.xcodeproj/ProgressCell.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/DetailJournalView.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCell.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCelliPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletes.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalCompletesiPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshop.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/GoalsettingWorkshopiPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyGoalViewController_iPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/MyProgressViewController_iPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonalJournalViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/PersonlJournalViewController_iPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/RenewViewControlleriPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/SettingViewcontrolleriPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoom.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TreatmentRoomiPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewController.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/TutorialViewControlleriPad.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/Classes/tabledemo.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/Untitled 2/SVN/dayspa/dayspa/MainWindow_iPad.xib"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/AddGoal.png" DSimages/AddGoal.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/AddGoal@2x.png" DSimages/AddGoal@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/CatSelImg.png" DSimages/CatSelImg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/CatSelImg@2x.png" DSimages/CatSelImg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Continue.png" DSimages/Continue.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Continue@2x.png" DSimages/Continue@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Default.png" Default.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Default@2x.png" Default@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Default_Portrait.png" Default_Portrait.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalTitleBar.png" DSimages/GoalTitleBar.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalTitleBar@2x.png" DSimages/GoalTitleBar@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalWorkshop.png" DSimages/GoalWorkshop.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/GoalWorkshop@2x.png" DSimages/GoalWorkshop@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyDetails.png" DSimages/MyDetails.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyDetails@2x.png" DSimages/MyDetails@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyGoal.png" images/MainWindow/MyGoal.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgress.png" images/MainWindow/MyProgress.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgressSeg.png" DSimages/MyProgressSeg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/MyProgressSeg@2x.png" DSimages/MyProgressSeg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PlayBtn.png" DSimages/PlayBtn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/PlayBtn@2x.png" DSimages/PlayBtn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ProcessTblBg.png" DSimages/ProcessTblBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ProcessTblBg@2x.png" DSimages/ProcessTblBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtn.png" DSimages/RedioBtn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtn@2x.png" DSimages/RedioBtn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtnSelected.png" DSimages/RedioBtnSelected.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/RedioBtnSelected@2x.png" DSimages/RedioBtnSelected@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/STOP.png" "dayspa 2/STOP.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Save.png" DSimages/Save.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Save@2x.png" DSimages/Save@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/SendEmail.png" DSimages/SendEmail.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/SendEmail@2x.png" DSimages/SendEmail@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TblBg.png" DSimages/TblBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TblBg@2x.png" DSimages/TblBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtBoxImg.png" DSimages/TxtBoxImg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtBoxImg@2x.png" DSimages/TxtBoxImg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtFieldImg.png" DSimages/TxtFieldImg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/TxtFieldImg@2x.png" DSimages/TxtFieldImg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/UnCheckBtn.png" DSimages/UnCheckBtn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/UnCheckBtn@2x.png" DSimages/UnCheckBtn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/addGoal_tblBg_img.png" addGoal_tblBg_img.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/addGoal_tblBg_img@2x.png" addGoal_tblBg_img@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/add_goal_btn.png" add_goal_btn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/add_goal_btn@2x.png" add_goal_btn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/addgoal_btn.png" "images/MY GOAL/addgoal_btn.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/bg.png" "dayspa 2/bg.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catBg.png" DSimages/catBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catBg@2x.png" DSimages/catBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catCellBg.png" DSimages/catCellBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catCellBg@2x.png" DSimages/catCellBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catTblBg.png" DSimages/catTblBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/catTblBg@2x.png" DSimages/catTblBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell1.png" DSimages/cell1.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell1@2x.png" DSimages/cell1@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell2.png" DSimages/cell2.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell2@2x.png" DSimages/cell2@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell3.png" DSimages/cell3.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell3@2x.png" DSimages/cell3@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell4.png" DSimages/cell4.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell4@2x.png" DSimages/cell4@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell5.png" DSimages/cell5.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell5@2x.png" DSimages/cell5@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell6.png" DSimages/cell6.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell6@2x.png" DSimages/cell6@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell7.png" DSimages/cell7.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell7@2x.png" DSimages/cell7@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cellProcessBg.png" DSimages/cellProcessBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cellProcessBg@2x.png" DSimages/cellProcessBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell_line_img.png" cell_line_img.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/cell_line_img@2x.png" cell_line_img@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/checkBtn.png" DSimages/checkBtn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/checkBtn@2x.png" DSimages/checkBtn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/chk1.png" images/chk1.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/date_btn.png" images/NewGoal/date_btn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/defaultPhoto.png" DSimages/defaultPhoto.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/defaultPhoto@2x.png" DSimages/defaultPhoto@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/edit_btn_img.png" edit_btn_img.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/edit_btn_img@2x.png" edit_btn_img@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalSaperator.png" DSimages/goalSaperator.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalSaperator@2x.png" DSimages/goalSaperator@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalTblBg.png" DSimages/goalTblBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalTblBg@2x.png" DSimages/goalTblBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goalWA_btn.png" "images/MY GOAL/goalWA_btn.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goal_setting_btn.png" goal_setting_btn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/goal_setting_btn@2x.png" goal_setting_btn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/highest_btn.png" images/NewGoal/highest_btn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell1.png" "images/MY GOAL/iPadCell1.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell2.png" "images/MY GOAL/iPadCell2.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell3.png" "images/MY GOAL/iPadCell3.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell4.png" "images/MY GOAL/iPadCell4.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell5.png" "images/MY GOAL/iPadCell5.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell6.png" "images/MY GOAL/iPadCell6.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell7.png" "images/MY GOAL/iPadCell7.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell8.png" "images/MY GOAL/iPadCell8.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadCell9.png" "images/MY GOAL/iPadCell9.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg1.png" "images/MY GOAL/iPadLblImg1.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg2.png" "images/MY GOAL/iPadLblImg2.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg3.png" "images/MY GOAL/iPadLblImg3.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg4.png" "images/MY GOAL/iPadLblImg4.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg5.png" "images/MY GOAL/iPadLblImg5.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg6.png" "images/MY GOAL/iPadLblImg6.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg7.png" "images/MY GOAL/iPadLblImg7.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg8.png" "images/MY GOAL/iPadLblImg8.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadLblImg9.png" "images/MY GOAL/iPadLblImg9.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg1.png" "images/MY GOAL/iPadTxtImg1.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg2.png" "images/MY GOAL/iPadTxtImg2.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg3.png" "images/MY GOAL/iPadTxtImg3.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg4.png" "images/MY GOAL/iPadTxtImg4.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg5.png" "images/MY GOAL/iPadTxtImg5.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg6.png" "images/MY GOAL/iPadTxtImg6.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg7.png" "images/MY GOAL/iPadTxtImg7.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg8.png" "images/MY GOAL/iPadTxtImg8.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPadTxtImg9.png" "images/MY GOAL/iPadTxtImg9.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell1.png" "images/MY GOAL/iPhoneCell1.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell2.png" "images/MY GOAL/iPhoneCell2.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell3.png" "images/MY GOAL/iPhoneCell3.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell4.png" "images/MY GOAL/iPhoneCell4.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneCell5.png" "images/MY GOAL/iPhoneCell5.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg1.png" "images/MY GOAL/iPhoneLblImg1.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg2.png" "images/MY GOAL/iPhoneLblImg2.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg3.png" "images/MY GOAL/iPhoneLblImg3.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg4.png" "images/MY GOAL/iPhoneLblImg4.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg5.png" "images/MY GOAL/iPhoneLblImg5.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg6.png" "images/MY GOAL/iPhoneLblImg6.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg7.png" "images/MY GOAL/iPhoneLblImg7.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg8.png" "images/MY GOAL/iPhoneLblImg8.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneLblImg9.png" "images/MY GOAL/iPhoneLblImg9.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg1.png" "images/MY GOAL/iPhoneTxtImg1.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg2.png" "images/MY GOAL/iPhoneTxtImg2.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg3.png" "images/MY GOAL/iPhoneTxtImg3.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg4.png" "images/MY GOAL/iPhoneTxtImg4.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg5.png" "images/MY GOAL/iPhoneTxtImg5.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg6.png" "images/MY GOAL/iPhoneTxtImg6.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg7.png" "images/MY GOAL/iPhoneTxtImg7.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg8.png" "images/MY GOAL/iPhoneTxtImg8.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/iPhoneTxtImg9.png" "images/MY GOAL/iPhoneTxtImg9.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/icon.png" "dayspa 2/icon.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/icon@2x.png" "dayspa 2/icon@2x.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ipad_bg.png" "dayspa 2/ipad_bg.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/journal.png" images/MainWindow/journal.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/journaltab.png" images/MainWindow/journaltab.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/left-arrow.png" Classes/left-arrow.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/mygoaltab.png" images/MainWindow/mygoaltab.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/newPly.png" images/MainWindow/newPly.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/new_btn.png" images/NewGoal/new_btn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play.png" "dayspa 2/play.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_navi_img.png" play_navi_img.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_navi_img@2x.png" play_navi_img@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_tblBg_image.png" play_tblBg_image.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/play_tblBg_image@2x.png" play_tblBg_image@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/playtab.png" images/MainWindow/playtab.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/progressBg.png" DSimages/progressBg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/progressBg@2x.png" DSimages/progressBg@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/progresstab.png" images/MainWindow/progresstab.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/rated.png" rated.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/right-arrow.png" Classes/right-arrow.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/roff.png" images/roff.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/ron.png" images/ron.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/save_btn.png" "images/MY GOAL/save_btn.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/save_btn_img.png" save_btn_img.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/save_btn_img@2x.png" save_btn_img@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/send_email_btn.png" send_email_btn.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/send_email_btn@2x.png" send_email_btn@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/sendmail_btn.png" "images/MY GOAL/sendmail_btn.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/setting.png" images/MainWindow/setting.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/settingTab.png" images/MainWindow/settingTab.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star1.png" DSimages/star1.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star1@2x.png" DSimages/star1@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star2.png" DSimages/star2.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star2@2x.png" DSimages/star2@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star3.png" DSimages/star3.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star3@2x.png" DSimages/star3@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star4.png" DSimages/star4.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star4@2x.png" DSimages/star4@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star5.png" DSimages/star5.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star5@2x.png" DSimages/star5@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star6.png" DSimages/star6.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star6@2x.png" DSimages/star6@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star7.png" DSimages/star7.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/star7@2x.png" DSimages/star7@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/stop.png" DSimages/stop.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/stop@2x.png" DSimages/stop@2x.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/takeimage.png" "images/MY GOAL/../takeimage.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/top_background.png" images/top_background.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/txtFieldIpad.png" "images/MY GOAL/txtFieldIpad.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/txtFieldIphone.png" "images/MY GOAL/txtFieldIphone.png"
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/txt_bg.png" images/MainWindow/txt_bg.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/unchk1.png" images/unchk1.png
+r0
+
+CCopyPNGFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/unrated.png" unrated.png
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Creativity & Inspiration_intro.mp3" "Treatment Audio/Creativity & Inspiration_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Harmony & Balance_intro.mp3" "Treatment Audio/Harmony & Balance_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Health & Healing_intro.mp3" "Treatment Audio/Health & Healing_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/High Performance_intro.mp3" "Treatment Audio/High Performance_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Love & Relationships_intro.mp3" "Treatment Audio/Love & Relationships_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Personal Power_intro.mp3" "Treatment Audio/Personal Power_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Spiritual Connection_intro.mp3" "Treatment Audio/Spiritual Connection_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/The Wisdom Within_intro.mp3" "Treatment Audio/The Wisdom Within_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Wealth & Abundance_intro.mp3" "Treatment Audio/Wealth & Abundance_intro.mp3"
+r0
+
+CCpResource "build/Debug-iphoneos/DaySpaProject.app/Your Life’s Purpose_intro.mp3" "Treatment Audio/Your Life’s Purpose_intro.mp3"
+r0
+
+CCpResource build/Debug-iphoneos/DaySpaProject.app/Dayspa.sqlite Dayspa.sqlite
+r0
+
+CCpResource build/Debug-iphoneos/DaySpaProject.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/DaySpaProject" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app.dSYM" "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/DaySpaProject"
+r0
+
+CLd "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv6/DaySpaProject" normal armv6
+r0
+
+CLd "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/DaySpaProject.build/Debug-iphoneos/DaySpaProject.build/Objects-normal/armv7/DaySpaProject" normal armv7
+r0
+
+CProcessInfoPlistFile "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app/Info.plist" DaySpaProject-Info.plist
+r0
+
+CProcessPCH /var/folders/pw/pwkFMpR+Foatn9xpvUQYwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaySpaProject_Prefix-cgsiifazwtooubhcrtprizaiwcpp/DaySpaProject_Prefix.pch.gch DaySpaProject_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/pw/pwkFMpR+Foatn9xpvUQYwE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DaySpaProject_Prefix-dwoyvljyvtbzqtdthiokjsgzjfwo/DaySpaProject_Prefix.pch.gch DaySpaProject_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Volumes/Untitled 2/SVN/dayspa/dayspa/build/Debug-iphoneos/DaySpaProject.app"
+r0
+

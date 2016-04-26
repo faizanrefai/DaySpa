@@ -1,0 +1,249 @@
+//
+//  myprofile.m
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import "myprofile.h"
+#import "whogluedmap.h"
+#import "FAQHelp.h"
+
+@implementation myprofile
+@synthesize PublicProScroll;
+// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+/*
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization.
+    }
+    return self;
+}
+*/
+-(IBAction)onMap:(id)sender{
+	
+	
+	whogluedmap	*gluemap=[[whogluedmap alloc]initWithNibName:@"whogluedmap" bundle:nil];
+	[self.navigationController pushViewController:gluemap animated:YES];
+	[gluemap release];
+	
+	
+}
+
+-(IBAction)onFAQ:(id)sender
+{
+	FAQHelp *faqhelp=[[FAQHelp alloc]initWithNibName:@"FAQHelp" bundle:nil];
+	[self.navigationController pushViewController:faqhelp animated:YES];
+	[faqhelp release];
+}
+
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	
+    self.navigationController.navigationBar.alpha = 0.0;
+    
+    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    UIImageView *topbarImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+    [topbarImg setImage:[UIImage imageNamed:@"topBar.png"]];
+    
+    [self.view addSubview:topbarImg];
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(5,10, 76, 28);
+    
+    [backBtn addTarget:self action:@selector(Back) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:backBtn];    
+    
+    
+	scroll.frame = CGRectMake(0, 142, 320, 340);
+	scroll.contentSize = CGSizeMake(320, 540);
+	
+  //  PublicProScroll.frame = CGRectMake(0, 0, 320, 340);
+    PublicProScroll.contentSize = CGSizeMake(320, 450);    
+	publicprofileview.hidden = TRUE;
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+    
+//    self.navigationController.navigationBar.alpha = 0.0;
+//    
+//    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+//    UIImageView *topbarImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+//    [topbarImg setImage:[UIImage imageNamed:@"topBar.png"]];
+//    
+//    [self.view addSubview:topbarImg];
+//    [self.navigationController.navigationBar sendSubviewToBack:topbarImg];
+}
+
+-(void)Back
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(IBAction)segmentedControlIndexChanged
+{
+	switch(mysegment.selectedSegmentIndex) 
+	{
+		case 0:
+			scroll.hidden = FALSE;
+			publicprofileview.hidden = TRUE;
+            //PublicProScroll.hidden = TRUE;
+			//[AlertHandler showAlertForProcess];
+			//[gluemecontacttbl reloadData];
+			
+			
+			//[SEGCntrlContacts setImage:[UIImage imageNamed:@"contactsB.png"] forSegmentAtIndex:0];
+			//			[SEGCntrlContacts setImage:[UIImage imageNamed:@"inviteW.png"] forSegmentAtIndex:1];
+			//			[SEGCntrlContacts setImage:[UIImage imageNamed:@"StatusW.png"]forSegmentAtIndex:2];
+			
+			
+			break;
+		case 1:
+			scroll.hidden = TRUE;
+			publicprofileview.hidden = FALSE;
+             //PublicProScroll.contentSize = CGSizeMake(320, 540); 
+            //PublicProScroll.hidden = FALSE;
+			//[SEGCntrlContacts setImage:[UIImage imageNamed:@"contactsW.png"] forSegmentAtIndex:0];
+			//			[SEGCntrlContacts setImage:[UIImage imageNamed:@"inviteB.png"] forSegmentAtIndex:1];
+			//			[SEGCntrlContacts setImage:[UIImage imageNamed:@"StatusW.png"]forSegmentAtIndex:2];
+			break;
+	}
+}
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations.
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+	[textField resignFirstResponder];
+	return YES;
+}
+
+-(IBAction)ChkBtnValChanged:(id)sender
+{
+	if((UIButton*)sender == lnamebtn)
+	{
+		if (lnamebtn.selected==YES) {
+			lnamebtn.selected=NO;
+		}else {
+			lnamebtn.selected=YES;
+		}
+	}
+	
+	if((UIButton*)sender == screenbtn)
+	{
+		if (screenbtn.selected==YES) {
+			screenbtn.selected=NO;
+		}else {
+			screenbtn.selected=YES;
+		}
+	}
+	
+	if((UIButton*)sender == birthdaybtn)
+	{
+		if (birthdaybtn.selected==YES) {
+			birthdaybtn.selected=NO;
+		}else {
+			birthdaybtn.selected=YES;
+		}
+	}
+	
+	if((UIButton*)sender == emailbtn)
+	{
+		if (emailbtn.selected==YES) {
+			emailbtn.selected=NO;
+		}else {
+			emailbtn.selected=YES;
+		}
+	}
+	
+	if((UIButton*)sender == aboutmebtn)
+	{
+		if (aboutmebtn.selected==YES) {
+			aboutmebtn.selected=NO;
+		}else {
+			aboutmebtn.selected=YES;
+		}
+	}
+	
+	if((UIButton*)sender == contactbtn)
+	{
+		if (contactbtn.selected==YES) {
+			contactbtn.selected=NO;
+		}else {
+			contactbtn.selected=YES;
+		}
+	}
+}
+
+
+-(IBAction)takeImage:(id)sender{
+    UIActionSheet *actionsheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Take Photo or Video",@"Choose from Library",nil];
+	
+	[actionsheet showInView:scroll];
+	[actionsheet release];
+    
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    [picker dismissModalViewControllerAnimated:YES];
+    
+    img = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+    [imgBtn setImage:img forState:UIControlStateNormal];
+    NSLog(@"%@",imgBtn.imageView.image);
+    
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    
+		
+		if (buttonIndex == 0) {
+            UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+            imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+            imagePicker.editing=NO;
+			[self presentModalViewController:imagePicker animated:YES];
+            [imagePicker release];
+        }        
+        if(buttonIndex ==1) {
+            UIImagePickerController *picker;
+            picker = [[UIImagePickerController alloc]init];
+            picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+            picker.editing=NO;
+			picker.delegate = self;
+			[self presentModalViewController:picker animated:YES];
+        }
+}
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

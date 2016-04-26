@@ -1,0 +1,25 @@
+//
+//  MyHistory.h
+//  glueme
+//
+//  Created by APPLE  on 9/21/11.
+//  Copyright 2011 openxcel. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "DetailViewHistory.h"
+
+@class DetailViewHistory;
+@interface MyHistory : UIViewController <UITableViewDelegate,UITableViewDataSource>{
+    
+    IBOutlet UITableView *HistoryListTbl;
+    NSMutableArray *historyList;
+    DetailViewHistory *detailVwHistryObj;
+	IBOutlet UIButton *btnMap;
+    IBOutlet UIButton *btnFAQ;
+}
+
+-(IBAction)onMap:(id)sender;
+@property (nonatomic, retain) NSMutableArray *historyList;
+@property (nonatomic, retain) UITableView *HistoryListTbl;
+@end

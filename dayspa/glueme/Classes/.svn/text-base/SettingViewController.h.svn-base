@@ -1,0 +1,22 @@
+//
+//  SettingViewController.h
+//  glueme
+//
+//  Created by apple1 on 9/21/11.
+//  Copyright 2011 openxcek. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface SettingViewController : UIViewController {
+
+	NSMutableArray *arrSetting;
+	UITableView *tblSetting;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UIButton *btnMap;
+	IBOutlet UILabel *lblSetting;
+}
+-(IBAction)onFAQ:(id)sender;
+-(IBAction)onMap:(id)sender;
+@end

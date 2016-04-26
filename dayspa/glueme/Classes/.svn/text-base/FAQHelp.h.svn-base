@@ -1,0 +1,29 @@
+//
+//  FAQHelp.h
+//  glueme
+//
+//  Created by apple1 on 9/21/11.
+//  Copyright 2011 openxcek. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface FAQHelp : UIViewController <UITextViewDelegate>{
+	
+	IBOutlet UISegmentedControl *segFAQ;
+	IBOutlet UITextView *help;
+	IBOutlet UITextView *FAQ;
+	IBOutlet UITextView *aboutus;
+	IBOutlet UIButton *btnMap;
+
+}
+
+@property (nonatomic, retain) UISegmentedControl *segFAQ;
+@property (nonatomic, retain) UITextView *help;
+@property (nonatomic, retain) UITextView *FAQ;
+@property (nonatomic, retain) UITextView *aboutus;
+@property (nonatomic, retain) UIButton *btnMap;
+-(IBAction)segmentSelection:(id)sender;
+-(IBAction)onMap:(id)sender;
+@end

@@ -1,0 +1,16 @@
+//
+//  profileClass.h
+//  glueme
+//
+//  Created by APPLE  on 9/29/11.
+//  Copyright 2011 openxcel. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface profileClass : UIViewController {
+    IBOutlet UIButton *btnFAQ;
+}
+-(IBAction)onFAQ:(id)sender;
+@end

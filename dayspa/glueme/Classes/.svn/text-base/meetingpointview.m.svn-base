@@ -1,0 +1,242 @@
+//
+//  meetingpointview.m
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import "meetingpointview.h"
+#import "whogluedmap.h"
+#import "FAQHelp.h"
+
+@implementation meetingpointview
+
+// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+/*
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization.
+    }
+    return self;
+}
+*/
+-(IBAction)onMap:(id)sender{
+	
+	[self.navigationController popViewControllerAnimated:YES];
+	//whogluedmap	*gluemap=[[whogluedmap alloc]initWithNibName:@"whogluedmap" bundle:nil];
+//	[self.navigationController pushViewController:gluemap animated:YES];
+//	[gluemap release];
+//	
+	
+}
+
+-(IBAction)onFAQ:(id)sender
+{
+	FAQHelp *faqhelp=[[FAQHelp alloc]initWithNibName:@"FAQHelp" bundle:nil];
+	[self.navigationController pushViewController:faqhelp animated:YES];
+	[faqhelp release];
+}
+
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	
+    self.navigationController.navigationBar.alpha = 0.0;
+    
+    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    UIImageView *topbarImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+    [topbarImg setImage:[UIImage imageNamed:@"topBar.png"]];
+    
+    [self.view addSubview:topbarImg];
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(5,10, 76, 28);
+    
+    [backBtn addTarget:self action:@selector(Back) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:backBtn];    
+    
+	tabelarr = [[NSMutableArray alloc]init];
+	DetailArray = [[NSMutableArray alloc]init];
+	
+	[tabelarr addObject:@"Cafe Inn"];
+	[tabelarr addObject:@"Cafe Inns"];
+	[tabelarr addObject:@"Cafe Rio"];
+	[DetailArray addObject:@"-Downtown"];
+	[DetailArray addObject:@"-Street Way"];
+	[DetailArray addObject:@"-Chicago"];
+	//[tabelarr addObject:@"nepal"];
+	
+	searcharr=[[NSMutableArray alloc] initWithArray:tabelarr];
+}
+
+
+
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+    
+    tbl.rowHeight = 70.0;
+    
+    searchbar.tintColor = [UIColor whiteColor];
+
+    
+   
+    
+    
+//    UIImageView *tblImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+//    [tblImg setImage:[UIImage imageNamed:@"tblBg.png"]];
+//    
+   // [tbl setBackgroundView:tblImg];
+}
+
+-(void)Back
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations.
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+-(void)searchwithKeyWord:(UISearchBar*)SearchB{
+	
+	if (SearchB == searchbar) {
+		
+		
+		[searcharr removeAllObjects];
+		NSDictionary *dic;
+		//NSString *dic;
+		for(dic in tabelarr)
+		{
+			NSString *st =	[dic copy];
+			
+			NSRange rang =[st rangeOfString:SearchB.text options:NSCaseInsensitiveSearch];
+			
+			
+			if (rang.length == [SearchB.text length]) {
+				[searcharr addObject:dic];
+			}else {
+				[searcharr removeObject:dic];
+			}
+		}
+		[tbl reloadData];
+		
+		
+	}
+	
+	
+}
+
+
+-(BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar{
+	[searchBar setShowsCancelButton:YES animated:YES];
+	searchBar.showsCancelButton=YES;
+	return YES;
+}
+-(BOOL)searchBar:(UISearchBar *)searchBar shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+	
+[self performSelector:@selector(searchwithKeyWord:) withObject:searchBar afterDelay:0.2];
+	
+	return YES;
+}
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
+	[searchBar setShowsCancelButton:NO animated:YES];
+	[searchBar resignFirstResponder];
+	
+}
+-(void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
+	[searchBar resignFirstResponder];
+	[searchBar setShowsCancelButton:NO animated:YES];
+}
+-(BOOL)searchBarShouldEndEditing:(UISearchBar *)searchBar{
+	
+	[self searchwithKeyWord:searchBar];
+	return YES;
+}
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
+{
+    return 1;
+}
+
+
+// Customize the number of rows in the table view.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
+{
+	return [searcharr count];
+}
+
+
+// Customize the appearance of table view cells.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+    
+    UIImageView *cellImg = [[UIImageView alloc] initWithFrame:CGRectMake(0,10,270, 57)];
+    [cellImg setImage:[UIImage imageNamed:@"CellImg"]];
+    
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        [cell.contentView addSubview:cellImg];
+    }
+    
+    cell.selectionStyle = UITableViewCellEditingStyleNone;
+    
+	cell.textLabel.font = [UIFont fontWithName:@"arial" size:18];
+	//cell.textLabel.textColor=[UIColor whiteColor];
+	cell.textLabel.text = [searcharr objectAtIndex:indexPath.row];
+	cell.detailTextLabel.text= [DetailArray objectAtIndex:indexPath.row];
+	//cell.detailTextLabel.textColor = [UIColor whiteColor];
+	//cell.contentView.backgroundColor=[UIColor clearColor];
+	cell.textLabel.backgroundColor=[UIColor clearColor];
+	cell.detailTextLabel.backgroundColor=[UIColor clearColor];
+    
+    
+	
+    return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{
+	
+	meetingpointdetail *obj = [[meetingpointdetail alloc]init];
+	[self.navigationController pushViewController:obj animated:YES];
+}
+
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

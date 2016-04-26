@@ -1,0 +1,22 @@
+//
+//  Bump.h
+//  glueme
+//
+//  Created by apple1 on 9/21/11.
+//  Copyright 2011 openxcek. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface Bump : UITableViewController {
+	
+	NSMutableArray *arrBump;
+	UITableView *tblBump;
+	NSIndexPath *ind;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UIButton *btnMap;
+}
+-(IBAction)onFAQ:(id)sender;
+-(IBAction)onMap:(id)sender;
+@end

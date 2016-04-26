@@ -1,0 +1,21 @@
+//
+//  whogluedmap.h
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "meetingpointview.h"
+#import <MapKit/MapKit.h>
+
+@interface whogluedmap : UIViewController {
+    IBOutlet UIButton *btnFAQ;
+    IBOutlet MKMapView *mapView;
+}
+
+@property (nonatomic, retain) MKMapView *mapView;
+-(IBAction)btnmeetingpoint_clicked:(id)sender;
+-(void)Back;
+@end

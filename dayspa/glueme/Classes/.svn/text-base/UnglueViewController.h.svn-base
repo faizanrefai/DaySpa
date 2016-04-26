@@ -1,0 +1,24 @@
+//
+//  UnglueViewController.h
+//  glueme
+//
+//  Created by OPENXCELL TECHNOLABS on 9/20/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface UnglueViewController : UIViewController {
+
+	IBOutlet UITableView *tlb;
+	NSMutableArray *arrFriends;
+	NSInteger flag;
+	IBOutlet UIButton *faq;
+	IBOutlet UIButton *btnMap;
+    IBOutlet UIButton *btnFAQ;
+	
+}
+-(IBAction)onFAQ:(id)sender;
+-(IBAction)onMap:(id)sender;
+@end

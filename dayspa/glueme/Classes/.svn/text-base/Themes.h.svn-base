@@ -1,0 +1,22 @@
+//
+//  Themes.h
+//  glueme
+//
+//  Created by apple1 on 9/21/11.
+//  Copyright 2011 openxcek. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface Themes : UIViewController {
+
+	NSMutableArray *arrThemes;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UIButton *btnMap;
+
+	IBOutlet UITableView *tlbThemes;
+}
+-(IBAction)onFAQ:(id)sender;
+-(IBAction)onMap:(id)sender;
+@end

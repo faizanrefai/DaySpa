@@ -1,0 +1,85 @@
+//
+//  TextSendView.m
+//  glueme
+//
+//  Created by OPENXCELL TECHNOLABS on 9/21/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "TextSendView.h"
+#import "whogluedmap.h"
+
+@implementation TextSendView
+
+// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+/*
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization.
+    }
+    return self;
+}
+*/
+-(IBAction)onMap:(id)sender{
+	
+	
+	whogluedmap	*gluemap=[[whogluedmap alloc]initWithNibName:@"whogluedmap" bundle:nil];
+	[self.navigationController pushViewController:gluemap animated:YES];
+	[gluemap release];
+	
+	
+}
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+-(IBAction)onSend:(id)sender{
+	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Send successfully"
+														message:nil delegate:self 
+											  cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
+    [self dismissModalViewControllerAnimated:YES];
+	
+}
+-(IBAction)onCancel:(id)Sender{
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+	if(buttonIndex ==0)
+		[self dismissModalViewControllerAnimated:YES];
+		
+}
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations.
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

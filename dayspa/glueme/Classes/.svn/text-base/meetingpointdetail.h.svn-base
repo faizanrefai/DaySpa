@@ -1,0 +1,21 @@
+//
+//  meetingpointdetail.h
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "addfriend.h"
+
+@interface meetingpointdetail : UIViewController {
+
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UITableView *tbl;
+	IBOutlet UIButton *btnMap;
+}
+-(IBAction)onMap:(id)sender;
+-(IBAction)btnadd_clicked;
+-(void)Back;
+@end

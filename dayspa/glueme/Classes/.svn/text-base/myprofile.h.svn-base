@@ -1,0 +1,45 @@
+//
+//  myprofile.h
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface myprofile : UIViewController <UIActionSheetDelegate , UIPickerViewDelegate , UIImagePickerControllerDelegate , UINavigationControllerDelegate>{
+    IBOutlet UIScrollView *PublicProScroll;
+	
+	IBOutlet UIScrollView *scroll;
+	
+	IBOutlet UISegmentedControl *mysegment;
+	
+	//UIActionSheet *actionsheet;
+	
+	UIImage *img;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UIButton *imgBtn;
+	IBOutlet UIButton *btnMap;
+	IBOutlet UIScrollView *publicprofileview;
+	
+	IBOutlet UIButton *lnamebtn;
+	IBOutlet UIButton *screenbtn;
+	IBOutlet UIButton *birthdaybtn;
+	IBOutlet UIButton *aboutmebtn;
+	IBOutlet UIButton *emailbtn;
+	IBOutlet UIButton *contactbtn;
+}
+
+@property (nonatomic, retain) UIScrollView *PublicProScroll;
+
+-(IBAction)onMap:(id)sender;
+
+
+-(IBAction)segmentedControlIndexChanged;
+-(IBAction)takeImage:(id)sender;
+
+-(IBAction)ChkBtnValChanged:(id)sender;
+
+@end

@@ -1,0 +1,63 @@
+//
+//  MyGoalViewController.h
+//  DaySpaProject
+//
+//  Created by OPENXCELL TECHNOLABS on 7/9/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "DaySpaProjectAppDelegate.h"
+#import <MessageUI/MessageUI.h>
+#import "GoalsettingWorkshop.h"
+#import "DataManager.h"
+#import "GoalCell.h"
+
+@class DataManager,GoalCell;
+@interface MyGoalViewController : UIViewController<UITableViewDelegate,MFMailComposeViewControllerDelegate,UIActionSheetDelegate> {
+	BOOL isDeviceIpad;
+	DaySpaProjectAppDelegate *appDel;
+    GoalCell *goalcell;
+    DataManager *obj;
+	IBOutlet UITableView *categoryTbl;
+	IBOutlet UITableView *goalTbl;
+	NSArray *catList;
+	NSMutableArray *arryData;
+	GoalsettingWorkshop *goalsetViewObj;
+    NSMutableDictionary *GoalDict;
+    BOOL didCatSelect;
+    NSMutableArray *GoalDetails;
+    NSString *catStr;
+    NSMutableArray *tempData;
+    int cnt;
+    BOOL didDelete;
+    BOOL didEdit;
+    int dltedGoalId;
+    int goalId;
+    int catId;
+    BOOL isPresent;
+	
+	IBOutlet UIButton *editBtn;
+    
+}
+
+@property (nonatomic)  BOOL isPresent;
+@property (nonatomic) int dltedGoalId;
+@property (nonatomic) int catId;
+@property (nonatomic) int goalId;
+@property (nonatomic) int cnt;
+@property (nonatomic, retain) NSMutableArray *tempData;
+@property (nonatomic, retain) NSString *catStr;
+@property (nonatomic, retain) NSMutableArray *GoalDetails;
+@property (nonatomic, retain) NSMutableDictionary *GoalDict;
+@property (nonatomic,retain)NSMutableArray *arryData;
+-(IBAction)clickOnWorkshop:(id)sender;
+-(IBAction)clickOnsave:(id)sender;
+-(IBAction)clickOnAddGoal:(id)sender;
+-(IBAction)clickOnMail:(id)sender;
+- (void)animateTextField:(UITextField*) textField up: (BOOL) up;
+-(void)updateTableValues:(int)val;
+
+- (IBAction) EditTable:(id)sender;
+
+@end

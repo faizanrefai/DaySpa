@@ -1,0 +1,59 @@
+//
+//  WhoGlueViewController.h
+//  glueme
+//
+//  Created by OPENXCELL TECHNOLABS on 9/20/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "Place.h"
+#import "PlaceMark.h"
+#import <MapKit/MapKit.h>
+#import "listwhoglued.h"
+#import "ContactDetailView.h"
+#import "gluemeAppDelegate.h"
+#import "profileClass.h"
+#import <CoreLocation/CoreLocation.h>
+
+
+
+@class gluemeAppDelegate,ContactDetailView,profileClass,MKMapView,Place,PlaceMark;
+@interface WhoGlueViewController : UIViewController <MKMapViewDelegate,CLLocationManagerDelegate,UIWebViewDelegate,MKAnnotation>{
+    profileClass *profileclassObj;
+    gluemeAppDelegate *appDelegateObj;
+    Place *home;
+    PlaceMark* from;
+    MKMapView *ImgMapViewHome;
+    MKMapView *ImgMapView;
+    MKMapView *ImgMapViewHome3;
+    MKPinAnnotationView *annView;
+    
+    CLLocation *currentLocation;
+	IBOutlet MKMapView *mapView;
+	NSMutableArray *mapAnnotations;
+	IBOutlet UIView *userProfileVw;
+	IBOutlet UIButton *btnwhoglued;
+    IBOutlet UIButton *btnFAQ;
+    CLLocationManager *locationManager;
+	NSUserDefaults *prefs;
+}
+@property(nonatomic, retain)UIView *userProfileVw;
+@property (nonatomic, retain)MKMapView *mapView;
+@property (nonatomic, retain) NSMutableArray *mapAnnotations;
+@property (nonatomic, retain) MKMapView *ImgMapViewHome;
+@property (nonatomic, retain)MKMapView *ImgMapView;
+@property (nonatomic, retain)MKMapView *ImgMapViewHome3;
+@property (nonatomic, retain)MKPinAnnotationView *annView;
+
++ (CGFloat)annotationPadding;
++ (CGFloat)calloutHeight;
+
+-(void)displayMyMap;
+-(IBAction)btnwhoglued_clicked;
+-(IBAction)onFAQ:(id)sender;
+-(void)btnViewMapclicked:(id)sender;
+-(IBAction)ClickNext;
+-(void)ButtonPressed:(id)sender;
+-(void)showView;
+@end

@@ -1,0 +1,27 @@
+//
+//  meetingpointview.h
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "meetingpointdetail.h"
+
+@interface meetingpointview : UIViewController <UISearchBarDelegate , UITableViewDelegate , UITableViewDataSource> {
+
+	IBOutlet UITableView *tbl;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UISearchBar *searchbar;
+	
+	NSMutableArray *tabelarr;
+	NSMutableArray *DetailArray;
+    
+	NSMutableArray *searcharr;
+	IBOutlet UIButton *btnMap;
+}
+-(IBAction)onMap:(id)sender;
+-(void)Back;
+
+@end

@@ -1,0 +1,23 @@
+//
+//  HomeScreen.h
+//  glueme
+//
+//  Created by apple1 on 9/21/11.
+//  Copyright 2011 openxcek. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface HomeScreen : UIViewController {
+
+	IBOutlet UITableView *tlbHome;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UIButton *btnMap;
+	NSMutableArray *arrHome;
+	NSIndexPath *ind;
+}
+
+-(IBAction)onFAQ:(id)sender;
+-(IBAction)onMap:(id)sender;
+@end

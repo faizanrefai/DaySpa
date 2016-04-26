@@ -1,0 +1,21 @@
+//
+//  TextSendView.h
+//  glueme
+//
+//  Created by OPENXCELL TECHNOLABS on 9/21/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface TextSendView : UIViewController<UIAlertViewDelegate> {
+
+	IBOutlet UIButton *btnMap;
+	IBOutlet UIButton *btnFAQ;
+}
+
+-(IBAction)onSend:(id)sender;
+-(IBAction)onCancel:(id)Sender;
+-(IBAction)onMap:(id)sender;
+@end

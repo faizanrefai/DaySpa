@@ -1,0 +1,38 @@
+//
+//  login.h
+//  glueme
+//
+//  Created by apple on 9/19/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "forgetpassword.h"
+#import "MyGlueViewController.h"
+#import "gluemeAppDelegate.h"
+
+@class gluemeAppDelegate;
+@interface login : UIViewController <UITabBarControllerDelegate>{
+
+	gluemeAppDelegate *GlueAppDelegateObj;
+	IBOutlet UITextField *idtext;
+	IBOutlet UITextField *passwordtext;
+	IBOutlet UIButton *btnFAQ;
+	IBOutlet UIButton *rememberbtn;
+	IBOutlet UIButton *forgetpassbtn;
+	IBOutlet UIButton *loginbtn;
+	IBOutlet UIButton *registermebtn;
+	UIImage *i;
+	IBOutlet UITabBarController *tabBar;
+}
+
+@property(nonatomic,retain)IBOutlet UITabBarController *tabBar;
+
+-(IBAction)remembermebtn_clicked:(id)sender;
+-(IBAction)forgetpassbtn_clicked:(id)sender;
+-(IBAction)loginbtn_clicked:(id)sender;
+-(IBAction)registerbtn_clicked:(id)sender;
+-(void)PassData;
+-(IBAction)loginbtn_clicked:(id)sender;
+@end

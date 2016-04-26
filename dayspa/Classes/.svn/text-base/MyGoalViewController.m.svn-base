@@ -1,0 +1,760 @@
+//
+//  MyGoalViewController.m
+//  DaySpaProject
+//
+//  Created by OPENXCELL TECHNOLABS on 7/9/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "MyGoalViewController.h"
+#import "GoalCell.h"
+
+
+
+@implementation MyGoalViewController
+@synthesize arryData,GoalDetails,catStr,tempData,cnt,dltedGoalId;
+@synthesize   isPresent;;
+
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    
+    [super viewDidLoad];
+    didEdit = FALSE;
+    didDelete = FALSE;
+    tempData = [[NSMutableArray alloc] init];
+    GoalDetails = [[NSMutableArray alloc] init];
+    didCatSelect = TRUE;
+    GoalDict = [[NSMutableDictionary alloc] init];
+    obj=[DataManager sharedManager];
+	appDel = (DaySpaProjectAppDelegate *)[[UIApplication sharedApplication]delegate];
+	isDeviceIpad = [appDel isIpad];
+	NSArray *tempArr = [NSArray arrayWithObjects: @"HEALTH", @"CAREER",@"FINANCIAL",@"MATERIAL",
+						@"LIFESTYLE", @"RELATIONSHIPS",@"FAMILY",@"COMMUNITY",@"SPIRITUAL",nil];
+	
+    UIImageView *catTblImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"catTblBg.png"]];
+    
+  //  [categoryTbl setBackgroundView:catTblImg];
+    
+    UIImageView *GoalTblImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"goalTblBg.png"]];
+    
+    [goalTbl setBackgroundView:GoalTblImg];
+    
+	catList = [[NSArray arrayWithArray:tempArr] retain];	
+	
+	arryData = [[NSMutableArray alloc]init];
+	//goalTbl.backgroundView = nil;
+	//categoryTbl.backgroundView = nil;
+	goalTbl.backgroundColor= [UIColor clearColor];
+	categoryTbl.backgroundColor= [UIColor clearColor];
+    
+    //categoryTbl.rowHeight = 20.0;
+    
+    NSIndexPath *ip=[NSIndexPath indexPathForRow:0 inSection:0];
+	[categoryTbl selectRowAtIndexPath:ip animated:NO scrollPosition: UITableViewScrollPositionNone];
+    
+    
+     GoalDetails = [obj getCurrentGoalDetail : [catList objectAtIndex:ip.row]];
+    catStr = [catList objectAtIndex:ip.row]; 
+    
+     if (!([GoalDetails count] == 0)) {
+     arryData = GoalDetails;
+     cnt = [arryData count];
+     }
+     
+     
+     NSLog(@"%@",arryData);
+     
+     
+//     if (!([GoalDetails count] == 0)) 
+//     {
+//     
+//         [goalTbl reloadData];
+//     }
+//     
+//     else
+//     {
+//     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"No goal set for this category. Select Add Goal to add goal for this category" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+//     [alert show];
+//     [alert release];
+//     
+//   //  [goalTbl reloadData];
+//     
+//     }
+
+    
+
+    
+    
+	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStyleBordered target:self action:@selector(EditTable:)];
+	[self.navigationItem setRightBarButtonItem:addButton];
+	
+
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+	[super viewWillAppear:animated];
+	//self.navigationController.navigationBar.tintColor = nil;
+	self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+   // GoalDetails = [obj getCurrentGoalDetail : catStr];
+      if(isPresent)
+          return;
+    if (!([GoalDetails count] == 0)) 
+    {
+        
+        [goalTbl reloadData];
+    }
+    
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"No goal set for this category. Select Add Goal to add goal for this category" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alert show];
+        [alert release];
+    }
+
+}
+-(IBAction)clickOnWorkshop:(id)sender{
+	NSLog(@"nextView");
+	if(goalsetViewObj)
+		[goalsetViewObj release];
+	if(isDeviceIpad)
+		goalsetViewObj = [[GoalsettingWorkshop alloc]initWithNibName:@"GoalsettingWorkshopiPad" bundle:nil];
+	else
+		goalsetViewObj = [[GoalsettingWorkshop alloc]initWithNibName:@"GoalsettingWorkshop" bundle:nil];
+
+	[self.navigationController pushViewController:goalsetViewObj animated:YES];
+}
+
+-(IBAction)clickOnsave:(id)sender{
+	
+	GoalDetails = [obj getCurrentGoalDetail : catStr];
+    cnt = [GoalDetails count]+[arryData count]; 
+	
+	for (int i=0; i<[arryData count]; i++) {
+		NSMutableDictionary *tempArrDict =[arryData objectAtIndex:i];
+	
+        
+        if ([tempArrDict objectForKey:@"Priority"] == @"") {
+            [tempArrDict setObject:@" " forKey:@"Priority"];
+        }
+        if ([tempArrDict objectForKey:@"Status"] == @"") {
+            [tempArrDict setObject:@" " forKey:@"Status"];
+        }
+        if ([tempArrDict objectForKey:@"Due"] == @"") {
+            [tempArrDict setObject:@" " forKey:@"Due"];
+        }
+        if ([tempArrDict objectForKey:@"Goal_desc"] == @"") {
+            [tempArrDict setObject:@" " forKey:@"Goal_desc"];       
+        }
+		
+		UIImage *img = [tempArrDict objectForKey:@"Image"];
+        NSData *imageData = UIImagePNGRepresentation(img);
+		if([[tempArrDict valueForKey:@"Goal_id"] isEqual:@"0"]){
+		
+		[obj addGoalEntry:catStr :[tempArrDict objectForKey:@"Goal_desc"]:[tempArrDict objectForKey:@"Status"]:[tempArrDict objectForKey:@"Priority"]:[tempArrDict objectForKey:@"Due"]:imageData];
+		}
+		else
+			[obj updateGoalEntry:catStr :[tempArrDict objectForKey:@"Goal_desc"]:[tempArrDict objectForKey:@"Status"]:[tempArrDict objectForKey:@"Priority"]:[tempArrDict objectForKey:@"Due"]:imageData:[[tempArrDict valueForKey:@"Goal_id"]intValue]];
+	}
+		
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Message" message:@"Saved data successfully"  delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+	[alert show];
+	[alert release];
+}
+
+
+-(IBAction)clickOnAddGoal:(id)sender{
+	
+	//NSIndexPath *ip=[NSIndexPath indexPathForRow:0 inSection:0];
+	//[goalTbl scrollToRowAtIndexPath:ip atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+    
+    if (!didCatSelect) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Request" message:@"Please select one category" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alert show];
+        [alert release];
+    }
+    else
+    {
+        
+         NSMutableDictionary *t_dic = [[NSMutableDictionary alloc] init];
+         
+         
+         
+         [t_dic setValue:@"New Goal" forKey:@"Goal_desc"];
+         [t_dic setValue:@"New" forKey:@"Status"];
+         
+         [t_dic setValue:@"Highest" forKey:@"Priority"];
+         
+        NSDate *currentDate = [NSDate date];
+       
+        NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+		[formatter setDateFormat:@"dd-MM-yyyy"];
+//		[dueDateBtn setTitle:[formatter stringFromDate:currentDate] forState:UIControlStateNormal];
+        
+         NSLog(@"%@",[formatter stringFromDate:currentDate]);
+        
+         [t_dic setValue:[formatter stringFromDate:currentDate] forKey:@"Due"];
+        [t_dic setValue:@"0" forKey:@"Goal_id"];
+//         NSData *imgDta = UIImagePNGRepresentation([UIImage imageNamed:@"takeimage.png"]);
+        
+        UIImage *img = [UIImage imageNamed:@"defaultPhoto.png"];
+         [t_dic setValue:img forKey:@"Image"];
+         
+         
+         [arryData insertObject:t_dic atIndex:[arryData count]];
+        
+         [goalTbl reloadData];
+        [t_dic release];
+         
+//        [arryData insertObject:@"Goal" atIndex:[arryData count]];
+//        [goalTbl reloadData];
+    }
+
+}
+
+
+-(IBAction)clickOnMail:(id)sender{
+	MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc] init];
+	mailController.mailComposeDelegate = self;
+
+    NSString *string1;
+    NSString *string2=@"";
+    
+    for (int i=0; i<[arryData count]; i++) {
+		NSMutableDictionary *tempArr =[arryData objectAtIndex:i];
+        UIImage *img = [tempArr objectForKey:@"Image"];
+        NSData *imageData = UIImagePNGRepresentation(img);
+        NSLog(@"%@",tempArr);
+        
+        //[mailController addAttachmentData:imageData mimeType:@"image/png" fileName:@"note.png"];
+        
+        string1 = [NSString stringWithFormat:@"Goal Description : %@ \n Goal Status : %@ \n Goal Priority : %@ \n Goal Due-date : %@",[tempArr objectForKey:@"Goal_desc"],[tempArr objectForKey:@"Status"],[tempArr objectForKey:@"Priority"],[tempArr objectForKey:@"Due"]];
+           
+        string2 = [NSString stringWithFormat:@"%@ \n \n %@" ,string2,string1];
+        
+        //        [tempArr objectForKey:@"Goal_desc"]:[tempArrDict objectForKey:@"Status"]:[tempArrDict objectForKey:@"Priority"]:[tempArrDict objectForKey:@"Due"]:imageData];
+    }
+    
+	NSString *mailStr = [NSString  stringWithFormat:@"%@",string2];
+
+	[mailController setSubject:[NSString  stringWithFormat:@"Category : %@",catStr]];
+	
+	[mailController setMessageBody:mailStr isHTML:NO];
+	[self presentModalViewController:mailController animated:YES];
+	[mailController release];
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)mailController didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error {
+	[self becomeFirstResponder];
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+
+- (void)animateTextField:(UITextField*) textField up: (BOOL) up {
+	
+	int movementDistance = 120;
+	if([arryData count] < 2)
+		movementDistance =0;
+	float movementDuration = 0.3f; 
+	int movement = (up ? -movementDistance : movementDistance);	
+    [UIView beginAnimations: @"anim" context: nil];
+    [UIView setAnimationBeginsFromCurrentState: YES];
+    [UIView setAnimationDuration: movementDuration];
+    self.view.frame = CGRectOffset(self.view.frame, 0, movement);
+	[UIView commitAnimations];
+}
+
+#pragma mark -
+#pragma mark Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+	if(tableView == categoryTbl){
+		 if(isDeviceIpad)
+			 return 80;
+		 else 
+			 return 50;
+	}
+	else {
+		if(isDeviceIpad)
+			return 150;
+		else 
+			return 110;
+	}
+
+}
+
+-(void)updateTableValues:(int)val{
+      isPresent =FALSE;
+    GoalCell *cell = (GoalCell*)[goalTbl cellForRowAtIndexPath:[NSIndexPath indexPathForRow:val inSection:0]];
+    NSMutableDictionary *dic =[arryData objectAtIndex:val];
+    NSLog(@"%@  at index %i",dic,val);
+    
+    NSMutableDictionary *temp_dic = [[NSMutableDictionary alloc]init];
+    
+    NSString *str = cell.goalTxt.text;
+    if (str == nil) {
+        cell.goalTxt.text = @"";
+    }
+	[temp_dic setObject:cell.goalTxt.text forKey:@"Goal_desc"];
+	
+	str = cell.statusBtn.currentTitle;
+    if (str == nil) {
+		[ cell.statusBtn setTitle:@"" forState:UIControlStateNormal];
+    }   
+    [temp_dic setObject:cell.statusBtn.currentTitle forKey:@"Status"];
+	
+	str = cell.priorityBtn.currentTitle;
+    if (str == nil) {
+		[ cell.priorityBtn setTitle:@"" forState:UIControlStateNormal];
+    }     	
+    [temp_dic setObject:cell.priorityBtn.currentTitle forKey:@"Priority"];
+    
+	str = cell.dueDateBtn.currentTitle;
+    if (str == nil || str == NULL ||[str isEqualToString:@""]) {
+       [ cell.dueDateBtn setTitle:@"" forState:UIControlStateNormal];
+    }
+    [temp_dic setObject:cell.dueDateBtn.currentTitle forKey:@"Due"];
+	UIButton *btn =cell.imgBtn;
+     NSLog(@"%@",btn.imageView.image);
+ 
+    UIImage *updatedImg = btn.imageView.image;
+    NSLog(@"%@",updatedImg);
+    [temp_dic setObject:updatedImg forKey:@"Image"]; 
+	[temp_dic setObject:[dic valueForKey:@"Goal_id"] forKey:@"Goal_id"];  
+      // [btn release];
+    [arryData replaceObjectAtIndex:val withObject:temp_dic];
+    [goalTbl reloadData];
+    
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
+    if(tableView == categoryTbl)
+		return [catList count];
+	else
+		return [arryData count];
+    
+//    if(isDeviceIpad)
+//    {
+//        goalTbl.rowHeight = 300.0;
+//    }
+
+}
+
+
+// Customize the appearance of table view cells.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+	if(tableView == categoryTbl)
+    {
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        
+    if (cell == nil) 
+    {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    }
+        //cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        UIImageView *cellImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"catCellBg.png"]];
+        
+        
+        cell.backgroundView = cellImg;
+        
+        UIImageView *SelectedcellImg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"catBg.png"]];
+        
+        cell.selectedBackgroundView = SelectedcellImg;
+		cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
+		cell.textLabel.numberOfLines = 0;
+		if(isDeviceIpad)
+			cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:18];
+		else
+			cell.textLabel.font = [UIFont fontWithName:@"Helvetica" size:10];
+		cell.textLabel.text =[catList objectAtIndex:indexPath.row];  
+	cell.backgroundColor = [UIColor clearColor];
+    return cell;
+	}
+    
+	else 
+    {
+		static NSString *CellIdentifier = @"GoalCell";
+		
+		GoalCell *cell = (GoalCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+		if (cell == nil) {			
+			NSArray *nib = nil;		
+			if(isDeviceIpad)
+				nib = [[NSBundle mainBundle] loadNibNamed:@"GoalCelliPad" owner:nil options:nil];
+			else 
+				nib = [[NSBundle mainBundle] loadNibNamed:@"GoalCell" owner:nil options:nil];
+			cell = [nib objectAtIndex:0];	
+			[cell setParentObj:self];
+            
+			//[cell setParentObject:self];
+		}	
+//        else
+//        {
+          cell.tag= indexPath.row;
+            NSMutableDictionary *t_dic = [arryData objectAtIndex:indexPath.row];
+            
+            NSLog(@"%@",t_dic);
+            
+            
+            NSLog(@"%@",[t_dic valueForKey:@"Status"]);
+            
+            cell.goalTxt.text = [t_dic valueForKey:@"Goal_desc"];
+            [cell.statusBtn setTitle:[t_dic valueForKey:@"Status"] forState:normal];
+            
+            [cell.priorityBtn setTitle:[t_dic valueForKey:@"Priority"] forState:normal];
+            [cell.dueDateBtn setTitle:[t_dic valueForKey:@"Due"] forState:normal] ;
+           // [cell.imgBtn.imageView setImage:[t_dic valueForKey:@"Image"]];
+        [cell.imgBtn setImage:[t_dic valueForKey:@"Image"] forState:normal];
+       // }
+      
+        NSLog(@"%i",cell.tag);
+		//[cell setData];
+		cell.backgroundColor = [UIColor clearColor];
+		cell.selectionStyle = FALSE;
+		
+        
+
+//        NSMutableArray *temparr = [[NSArray alloc] init];
+//        [temparr addObject:cell.goalTxt.text];
+//        
+//        UIImage *img = cell.imageView.image;
+//        NSData *imageData = UIImagePNGRepresentation(img);
+//        
+//        [temparr addObject:imageData];
+//        [temparr addObject:cell.statusBtn.titleLabel.text];
+//        [temparr addObject:cell.priorityBtn.titleLabel.text];
+//        [temparr addObject:cell.dueDateBtn.titleLabel.text];
+//        NSLog(@"%@",temparr);
+//        
+//        [GoalDict setValue:temparr forKey:[NSString stringWithFormat:@"%i",indexPath.row]];
+//        NSLog(@"%@",GoalDict);
+        
+        return cell;
+	}
+}
+
+- (IBAction) EditTable:(id)sender{
+	if(self.editing){
+		[super setEditing:NO animated:NO]; 
+		[goalTbl setEditing:NO animated:NO];
+//        if (didDelete) {
+//            GoalDetails = [obj getCurrentGoalDetail : [catList objectAtIndex:catId]];
+//            arryData = GoalDetails;
+//            //cnt = [arryData count];
+//        }
+//
+//        if (didDelete) {
+//            arryData = tempData;
+//        }
+		[goalTbl reloadData];
+        
+        [self.navigationItem.rightBarButtonItem setTitle:@"Edit"];
+		[self.navigationItem.rightBarButtonItem setStyle:UIBarButtonItemStylePlain];
+	}
+	else{
+		[super setEditing:YES animated:YES]; 
+		[goalTbl setEditing:YES animated:YES];
+		[goalTbl reloadData];
+		[self.navigationItem.rightBarButtonItem setTitle:@"Done"];
+		[self.navigationItem.rightBarButtonItem setStyle:UIBarButtonItemStyleDone];
+	}
+    
+}
+
+
+// The editing style for a row is the kind of button displayed to the left of the cell when in editing mode.
+- (UITableViewCellEditingStyle)tableView:(UITableView *)aTableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
+    didEdit = TRUE;
+    // No editing style if not editing or the index path is nil.
+    //if (self.editing == NO || !indexPath) return UITableViewCellEditingStyleNone;
+//    // Determine the editing style based on whether the cell is a placeholder for adding content or already 
+//    // existing content. Existing content can be deleted.    
+//    if (self.editing && indexPath.row == ([arryData count])) {
+//		return UITableViewCellEditingStyleInsert;
+//	} else {
+//		return UITableViewCellEditingStyleDelete;
+//	}
+//    return UITableViewCellEditingStyleNone;
+    /*if (didDelete) {
+        arryData = tempData;
+    }*/
+
+	return UITableViewCellEditingStyleDelete;
+    
+}
+
+// Update the data model according to edit actions delete or insert.
+- (void)tableView:(UITableView *)aTableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle 
+forRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+      //  [arryData removeObjectAtIndex:indexPath.row];
+        
+        
+         NSMutableDictionary *t_dic = [arryData objectAtIndex:indexPath.row];
+         
+         NSLog(@"%@",t_dic);
+        // [arryData objectAtIndex:indexPath.row];
+
+        
+       dltedGoalId = [[t_dic objectForKey:@"Goal_id"] intValue];
+            
+              
+//        [obj delData:a];
+       [arryData removeObjectAtIndex:indexPath.row];
+        [obj delData:dltedGoalId];
+        didDelete = TRUE;
+        //tempData = arryData;
+        [goalTbl reloadData];
+//        GoalDetails = [obj getCurrentGoalDetail : [catList objectAtIndex:catId]];
+//        arryData = GoalDetails;
+                        
+    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        [arryData insertObject:@"goal" atIndex:[arryData count]];
+		[goalTbl reloadData];
+    }
+    
+
+}
+
+
+/*
+ // Override to support conditional editing of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the specified item to be editable.
+ return YES;
+ }
+ */
+
+
+/*
+ // Override to support editing the table view.
+ - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+ 
+ if (editingStyle == UITableViewCellEditingStyleDelete) {
+ // Delete the row from the data source.
+ [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+ }   
+ else if (editingStyle == UITableViewCellEditingStyleInsert) {
+ // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+ }   
+ }
+ */
+
+
+/*
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+ }
+ */
+
+
+/*
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
+
+
+#pragma mark -
+#pragma mark Table view delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Navigation logic may go here. Create and push another view controller.
+    /*
+	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+	 // ...
+	 // Pass the selected object to the new view controller.
+	 [self.navigationController pushViewController:detailViewController animated:YES];
+	 [detailViewController release];
+	 */
+    
+    if (tableView == categoryTbl) {
+        
+        
+        GoalDetails = [obj getCurrentGoalDetail : [catList objectAtIndex:indexPath.row]];
+        cnt = [GoalDetails count];
+        
+        NSLog(@"%@",GoalDetails);
+        
+        catStr = [catList objectAtIndex:indexPath.row];
+        
+        arryData = GoalDetails;
+        
+         NSLog(@"%@",arryData);
+         NSLog(@"%i",[arryData count]);
+        
+        if (!([arryData count] == 0)) 
+        {
+            [goalTbl reloadData];
+        }
+        else
+        {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"No goal set for this category" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+            [alert show];
+            [alert release];
+            
+            [goalTbl reloadData];
+            
+        }
+
+        
+        
+    }
+    else
+    {
+        
+    }
+    
+    
+    
+    
+    
+    /*
+    didDelete = FALSE;
+    
+    
+    if (!([GoalDetails count] == 0)) {
+        [GoalDetails removeAllObjects];
+    }
+    if (!([arryData count] == 0)) {
+       [arryData removeAllObjects];
+    }
+    
+    
+    if(tableView == goalTbl){
+        
+        
+	}
+	else {
+        catId = indexPath.row;
+		NSLog(@"%@",[catList objectAtIndex:indexPath.row]);
+        
+        didCatSelect = TRUE;  
+        
+        
+        
+        //NSIndexPath *ip=[NSIndexPath indexPathForRow:0 inSection:0];
+        //[goalTbl scrollToRowAtIndexPath:ip atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+        
+        //NSMutableArray *temparr = [[NSArray alloc] init];
+        //        [temparr addObject:cell.goalTxt.text];
+        //        
+        //        UIImage *img = cell.imageView.image;
+        //        NSData *imageData = UIImagePNGRepresentation(img);
+        //        
+        //        [temparr addObject:imageData];
+        //        [temparr addObject:cell.statusBtn.titleLabel.text];
+        //        [temparr addObject:cell.priorityBtn.titleLabel.text];
+        //        [temparr addObject:cell.dueDateBtn.titleLabel.text];
+        //        NSLog(@"%@",temparr);
+        //        
+        //        [GoalDict setValue:temparr forKey:[NSString stringWithFormat:@"%i",indexPath.row]];
+        //        NSLog(@"%@",GoalDict);
+       
+        
+        
+        
+        GoalDetails = [obj getCurrentGoalDetail : [catList objectAtIndex:indexPath.row]];
+      
+        if (!([GoalDetails count] == 0)) {
+            arryData = GoalDetails;
+            cnt = [arryData count];
+        }
+        
+        
+        NSLog(@"%@",arryData);
+        
+        
+        
+        catStr = [catList objectAtIndex:indexPath.row];
+        
+             
+        if (!([GoalDetails count] == 0)) 
+        {
+          
+             [goalTbl reloadData];
+//            for (int i=0; i<[arryData count]; i++) 
+//            {
+//            NSIndexPath *ind = [NSIndexPath indexPathForRow:i inSection:0]; 
+//            GoalCell *cell = (GoalCell *)[goalTbl cellForRowAtIndexPath:ind];
+//                [goalTbl reloadData];
+                
+//                NSMutableArray *temparray = [[NSMutableArray alloc] initWithObjects:[arryData objectAtIndex:i], nil ];
+//                NSMutableDictionary *t_dic = [arryData objectAtIndex:i];
+//                
+//                NSLog(@"%@",t_dic);
+//                
+//                NSIndexPath *ind = [NSIndexPath indexPathForRow:i inSection:0]; 
+//                GoalCell *cell = (GoalCell *)[goalTbl cellForRowAtIndexPath:ind];
+//                
+//                NSLog(@"%@",[t_dic valueForKey:@"Status"]);
+//                
+//                cell.goalTxt.text = [t_dic valueForKey:@"Goal_desc"];
+//                [cell.statusBtn setTitle:[t_dic valueForKey:@"Status"] forState:normal];
+//                
+//                [cell.priorityBtn setTitle:[t_dic valueForKey:@"Priority"] forState:normal];
+//                [cell.dueDateBtn setTitle:[t_dic valueForKey:@"Due"] forState:normal] ;
+//                [cell.imgBtn.imageView setImage:[t_dic valueForKey:@"Image"]];
+//           }
+            
+        }
+        
+        else
+        {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"No goal set for this category" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+            [alert show];
+            [alert release];
+            
+            [goalTbl reloadData];
+            
+        }
+
+	}*/
+}
+
+
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations.
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [tempData release];
+    [catStr release];
+    [GoalDetails release];
+	[arryData release];
+	[goalsetViewObj release];
+    [super dealloc];
+}
+
+
+@end

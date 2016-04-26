@@ -1,0 +1,150 @@
+//
+//  HomeScreen.m
+//  glueme
+//
+//  Created by apple1 on 9/21/11.
+//  Copyright 2011 openxcek. All rights reserved.
+//
+
+#import "HomeScreen.h"
+#import "whogluedmap.h"
+#import "FAQHelp.h"
+@implementation HomeScreen
+
+// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+/*
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization.
+    }
+    return self;
+}
+*/
+-(IBAction)onFAQ:(id)sender
+{
+	FAQHelp *faqhelp=[[FAQHelp alloc]initWithNibName:@"FAQHelp" bundle:nil];
+	[self.navigationController pushViewController:faqhelp animated:YES];
+	[faqhelp release];
+}
+-(IBAction)onMap:(id)sender{
+	
+	
+	whogluedmap	*gluemap=[[whogluedmap alloc]initWithNibName:@"whogluedmap" bundle:nil];
+	[self.navigationController pushViewController:gluemap animated:YES];
+	[gluemap release];
+	
+	
+}
+
+ //Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationController.navigationBar.alpha = 0.0;
+    
+    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    UIImageView *topbarImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+    [topbarImg setImage:[UIImage imageNamed:@"topBar.png"]];
+    
+    [self.view addSubview:topbarImg];
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(5,10, 76, 28);
+    
+    [backBtn addTarget:self action:@selector(Back) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:backBtn]; 
+   
+    
+	arrHome=[[NSMutableArray alloc]initWithObjects:@"Map All-Default",@"My GlueMe",@"My Requests",@"My Contacts",@"My Histroy",@"My Profile",nil];
+}
+
+-(void)Back
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+}
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
+    return [arrHome	count];
+}
+
+
+// Customize the appearance of table view cells.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    }
+	cell.text = [arrHome	objectAtIndex:indexPath.row];
+    cell.textLabel.textColor = [UIColor whiteColor];
+	if(ind==indexPath)
+		cell.accessoryType = UITableViewCellAccessoryCheckmark;
+	else
+		cell.accessoryType = UITableViewCellAccessoryNone;
+    cell.textLabel.text = [arrHome objectAtIndex:indexPath.row];
+	
+	
+		
+	    
+    return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	//cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	ind =indexPath;
+	
+	[tlbHome reloadData];	
+	
+}
+
+
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations.
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

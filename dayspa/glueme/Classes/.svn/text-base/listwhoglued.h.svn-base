@@ -1,0 +1,23 @@
+//
+//  listwhoglued.h
+//  glueme
+//
+//  Created by apple on 9/21/11.
+//  Copyright 2011 fgbfg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "whogluedmap.h"
+
+@interface listwhoglued : UIViewController <UITableViewDelegate , UITableViewDataSource>{
+
+	
+	IBOutlet UITableView *tbl;
+	IBOutlet UIButton *btnMap;
+    IBOutlet UIButton *btnFAQ;
+}
+
+-(IBAction)onMap:(id)sender;
+-(void)Back;
+-(IBAction)onFAQ:(id)sender;
+@end

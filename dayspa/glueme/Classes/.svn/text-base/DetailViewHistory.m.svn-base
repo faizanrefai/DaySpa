@@ -1,0 +1,125 @@
+//
+//  DetailViewHistory.m
+//  glueme
+//
+//  Created by APPLE  on 9/21/11.
+//  Copyright 2011 openxcel. All rights reserved.
+//
+
+#import "DetailViewHistory.h"
+#import	"whogluedmap.h"
+#import "FAQHelp.h"
+
+@implementation DetailViewHistory
+@synthesize LastGluedOn,LastGluedTime,LastGluedTimeDetail,LastGluedOnDetail;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+-(IBAction)onMap:(id)sender{
+	
+	
+	whogluedmap	*gluemap=[[whogluedmap alloc]initWithNibName:@"whogluedmap" bundle:nil];
+	[self.navigationController pushViewController:gluemap animated:YES];
+	[gluemap release];
+	
+	
+}
+
+-(IBAction)onFAQ:(id)sender
+{
+	FAQHelp *faqhelp=[[FAQHelp alloc]initWithNibName:@"FAQHelp" bundle:nil];
+	[self.navigationController pushViewController:faqhelp animated:YES];
+	[faqhelp release];
+}
+
+- (void)dealloc
+{
+    [LastGluedTimeDetail release];
+    [LastGluedOnDetail release];
+    [LastGluedOn release];
+    [LastGluedTime release];
+    [super dealloc];
+}
+
+-(IBAction)deleteGlueHistory
+{
+    LastGluedOn.hidden = YES;
+    LastGluedTime.hidden = YES;
+    LastGluedTimeDetail.hidden = YES;
+    LastGluedOnDetail.hidden =YES;
+}
+
+-(IBAction)ReGlueMe
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"Reglued Me" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    [alert show];
+    [alert release];
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
+//    LastGluedOn.hidden = NO;
+//    LastGluedTime.hidden = NO;
+//    LastGluedTimeDetail.hidden = NO;
+//    LastGluedOnDetail.hidden =NO;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+    
+    self.navigationController.navigationBar.alpha = 0.0;
+    
+    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    UIImageView *topbarImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+    [topbarImg setImage:[UIImage imageNamed:@"topBar.png"]];
+    
+    [self.view addSubview:topbarImg];
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(5,10, 76, 28);
+    
+    [backBtn addTarget:self action:@selector(Back) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:backBtn]; 
+
+    
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+-(void)Back
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+@end

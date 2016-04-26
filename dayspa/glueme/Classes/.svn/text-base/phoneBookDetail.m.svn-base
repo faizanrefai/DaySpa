@@ -1,0 +1,262 @@
+//
+//  phoneBookDetail.m
+//  glueme
+//
+//  Created by APPLE  on 9/21/11.
+//  Copyright 2011 openxcel. All rights reserved.
+//
+
+#import "phoneBookDetail.h"
+#import "whogluedmap.h"
+#import "AlertHandler.h"
+#import "GdataParser.h"
+#import "FAQHelp.h"
+
+@implementation phoneBookDetail
+@synthesize eMailIdLbl;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+-(IBAction)onMap:(id)sender{
+	
+	
+	whogluedmap	*gluemap=[[whogluedmap alloc]initWithNibName:@"whogluedmap" bundle:nil];
+	[self.navigationController pushViewController:gluemap animated:YES];
+	[gluemap release];
+	
+	
+}
+
+-(IBAction)onFAQ:(id)sender
+{
+	FAQHelp *faqhelp=[[FAQHelp alloc]initWithNibName:@"FAQHelp" bundle:nil];
+	[self.navigationController pushViewController:faqhelp animated:YES];
+	[faqhelp release];
+}
+
+- (void)dealloc
+{
+    [super dealloc];
+}
+
+-(IBAction)onText:(id)sender{
+	textSendObj = [[TextSendView alloc]initWithNibName:@"TextSendView" bundle:nil];
+	[self presentModalViewController:textSendObj animated:YES];
+}
+
+-(IBAction)onEmail:(id)sender{
+    
+    Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
+	if (mailClass != nil)
+	{
+		// We must always check whether the current device is configured for sending emails
+		if ([mailClass canSendMail])
+		{
+			[self displayComposerSheet];
+		}
+		else
+		{
+			[self launchMailAppOnDevice];
+		}
+	}
+	else
+	{
+		[self launchMailAppOnDevice];
+	}
+
+    
+}
+
+
+-(void)launchMailAppOnDevice {
+	NSString *recipients = @"mailto:first@example.com?cc=second@example.com,third@example.com&subject=Hello from India!";
+	NSString *body = @"&body=It is raining in vikas india!";
+	
+	NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
+	email = [email stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:email]];
+}
+
+
+-(void)displayComposerSheet {
+	
+	MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
+	picker.mailComposeDelegate = self;
+	[picker setSubject:@" "];
+	
+	NSString *emailBody = @"";
+	[picker setMessageBody:emailBody isHTML:NO];
+	
+	[self presentModalViewController:picker animated:YES];
+    [picker release];
+}
+
+
+//-(IBAction) actionFeedback :(id) sender {
+//	/*if(!objFeedback)
+//     objFeedback =[[FeedbackController alloc] initWithNibName:@"FeedbackController" bundle:nil];
+//     
+//     [self.navigationController pushViewController:objFeedback animated:YES];*/
+//	
+//	
+//	
+//	Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
+//	if (mailClass != nil)
+//	{
+//		// We must always check whether the current device is configured for sending emails
+//		if ([mailClass canSendMail])
+//		{
+//			[self displayComposerSheet];
+//		}
+//		else
+//		{
+//			[self launchMailAppOnDevice];
+//		}
+//	}
+//	else
+//	{
+//		[self launchMailAppOnDevice];
+//	}
+//}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {	
+	
+	[self dismissModalViewControllerAnimated:YES];
+	
+	
+}
+
+
+- (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result{
+	
+	
+}
+
+
+
+-(IBAction)oncancel:(id)sender{
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+-(IBAction)onInvite:(id)sender{
+    [self PassData];
+}
+
+-(void)PassData
+{
+    [AlertHandler showAlertForProcess];
+    
+    //    NSLog(@"%@",[NSString stringWithFormat:@"%d",objAppdel.userId]);
+    //    NSLog(@"%@",[NSString stringWithFormat:@"%d",objAppdel.chatWithUserId]);
+    //    NSLog(@"%@",ChatTxt.text);
+    //    
+    //    NSString *encodedString = [ChatTxt.text stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
+    //    NSLog(@"%@",encodedString);
+    //    
+	NSString *RegURL = [NSString stringWithFormat:@"http://www.openxcellaus.info/glueme/send_invitation.php?email=krupal.1011@gmail.com",eMailIdLbl.text];
+    //NSString *RegURL = [NSString stringWithFormat:@"http://openxcellaus.info/leopard/chatting.php?from_user_id=7&to_user_id=8&text=heyfrndssssssss"];
+    
+	//    NSString *RegURL = @"http://www.openxcellaus.info/leopard/near_by_users.php?lat=23.41670000&long=72.91670000";
+    
+    
+	GdataParser *parser = [[GdataParser alloc] init];
+	[parser downloadAndParse:[NSURL URLWithString:RegURL] 
+				 withRootTag:@"Record"
+					withTags:[NSDictionary dictionaryWithObjectsAndKeys:@"msg",@"msg",nil] 
+						 sel:@selector(finishGetData:) 
+				  andHandler:self];
+	
+}
+
+-(void)finishGetData:(NSDictionary*)dictionary{
+	[AlertHandler hideAlert];
+    
+    NSLog(@"%@",dictionary);
+    NSMutableArray *tempArray;
+    tempArray = [dictionary objectForKey:@"array"];
+    NSLog(@"%@",tempArray);
+    NSMutableDictionary *tempDic = [tempArray objectAtIndex:0];
+    NSLog(@"%@",[tempDic objectForKey:@"msg"]);
+    NSString *temp = [tempDic objectForKey:@"msg"];
+    if ([temp isEqualToString:@"Please Enter valid Email Id"]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"Please Enter valid Email Id" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+        [alert show];
+        [alert release];
+    }
+    
+    else{
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Info" message:@"This contact person is invited." delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+        [alert show];
+        [alert release];
+    }
+}
+
+
+
+
+- (void)didReceiveMemoryWarning
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+    
+    self.navigationController.navigationBar.alpha = 0.0;
+    
+    self.navigationController.navigationBar.tintColor = [UIColor clearColor];
+    UIImageView *topbarImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 46)];
+    [topbarImg setImage:[UIImage imageNamed:@"topBar.png"]];
+    
+    [self.view addSubview:topbarImg];
+    
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(5,10, 76, 28);
+    
+    [backBtn addTarget:self action:@selector(Back) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:backBtn]; 
+
+    
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+}
+
+-(void)Back
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+@end
